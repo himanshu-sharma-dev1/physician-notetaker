@@ -2,12 +2,15 @@
 
 > AI-Powered Medical Transcription, NLP Summarization & Sentiment Analysis System
 
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Streamlit-FF4B4B?style=for-the-badge)](https://physician-notetaker-uk3ijxkex5a8symr5qdtsn.streamlit.app)
+
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![Streamlit](https://img.shields.io/badge/streamlit-1.29+-red.svg)](https://streamlit.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![100% Local ML](https://img.shields.io/badge/ML-100%25%20Local-green.svg)]()
 
 ---
+
 
 ## 🎯 Overview
 

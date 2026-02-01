@@ -1,0 +1,884 @@
+[
+  {
+    "text": "The symptoms are predictable now",
+    "sentiment": "neutral",
+    "intent": "reporting_symptoms",
+    "text_length": 5
+  },
+  {
+    "text": "The test results came back normal",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 6
+  },
+  {
+    "text": "I understand I need to return for monitoring",
+    "sentiment": "neutral",
+    "intent": "confirming_understanding",
+    "text_length": 8
+  },
+  {
+    "text": "I am worried I am having a stroke",
+    "sentiment": "anxious",
+    "intent": "expressing_concern",
+    "text_length": 8
+  },
+  {
+    "text": "I have been running a high fever",
+    "sentiment": "anxious",
+    "intent": "reporting_symptoms",
+    "text_length": 7
+  },
+  {
+    "text": "Will I need a transplant?",
+    "sentiment": "anxious",
+    "intent": "seeking_reassurance",
+    "text_length": 5
+  },
+  {
+    "text": "Thank you so much, doctor",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 5
+  },
+  {
+    "text": "I cannot sleep at night because of the pain",
+    "sentiment": "anxious",
+    "intent": "reporting_symptoms",
+    "text_length": 9
+  },
+  {
+    "text": "I understand the treatment plan",
+    "sentiment": "neutral",
+    "intent": "confirming_understanding",
+    "text_length": 5
+  },
+  {
+    "text": "I am really worried this might be something serious",
+    "sentiment": "anxious",
+    "intent": "expressing_concern",
+    "text_length": 9
+  },
+  {
+    "text": "I am feeling optimistic about the future",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 7
+  },
+  {
+    "text": "The results are better than expected",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 6
+  },
+  {
+    "text": "I am sleeping peacefully now",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 5
+  },
+  {
+    "text": "I have been following the diet recommendations",
+    "sentiment": "neutral",
+    "intent": "reporting_symptoms",
+    "text_length": 7
+  },
+  {
+    "text": "I do not understand why this keeps happening to me",
+    "sentiment": "anxious",
+    "intent": "expressing_concern",
+    "text_length": 10
+  },
+  {
+    "text": "that is exactly what I was hoping to hear",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 9
+  },
+  {
+    "text": "The condition is being managed",
+    "sentiment": "neutral",
+    "intent": "confirming_understanding",
+    "text_length": 5
+  },
+  {
+    "text": "I am completely pain-free now",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 5
+  },
+  {
+    "text": "I need clarification on the instructions",
+    "sentiment": "neutral",
+    "intent": "asking_questions",
+    "text_length": 6
+  },
+  {
+    "text": "Can I exercise with this condition?",
+    "sentiment": "neutral",
+    "intent": "asking_questions",
+    "text_length": 6
+  },
+  {
+    "text": "The exercises are part of my routine",
+    "sentiment": "neutral",
+    "intent": "confirming_understanding",
+    "text_length": 7
+  },
+  {
+    "text": "The stiffness is worse in the morning",
+    "sentiment": "anxious",
+    "intent": "reporting_symptoms",
+    "text_length": 7
+  },
+  {
+    "text": "The side effects are really bothering me",
+    "sentiment": "anxious",
+    "intent": "reporting_symptoms",
+    "text_length": 7
+  },
+  {
+    "text": "I feel so much more confident now",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 7
+  },
+  {
+    "text": "I am grateful for the excellent care",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 7
+  },
+  {
+    "text": "The headaches have stopped completely",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 5
+  },
+  {
+    "text": "I can exercise again without problems",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 6
+  },
+  {
+    "text": "I feel like myself again",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 5
+  },
+  {
+    "text": "I am documenting any changes",
+    "sentiment": "neutral",
+    "intent": "reporting_symptoms",
+    "text_length": 5
+  },
+  {
+    "text": "The treatment plan is straightforward",
+    "sentiment": "neutral",
+    "intent": "confirming_understanding",
+    "text_length": 5
+  },
+  {
+    "text": "The dosage seems appropriate",
+    "sentiment": "neutral",
+    "intent": "confirming_understanding",
+    "text_length": 4
+  },
+  {
+    "text": "The follow-up scans look great",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 5
+  },
+  {
+    "text": "My vitals have been checked regularly",
+    "sentiment": "neutral",
+    "intent": "reporting_symptoms",
+    "text_length": 6
+  },
+  {
+    "text": "I have been having nightmares about the diagnosis",
+    "sentiment": "anxious",
+    "intent": "expressing_concern",
+    "text_length": 8
+  },
+  {
+    "text": "I have a question about the dosage",
+    "sentiment": "neutral",
+    "intent": "asking_questions",
+    "text_length": 7
+  },
+  {
+    "text": "Is this going to affect my ability to work?",
+    "sentiment": "anxious",
+    "intent": "expressing_concern",
+    "text_length": 9
+  },
+  {
+    "text": "The symptoms appear and disappear",
+    "sentiment": "neutral",
+    "intent": "reporting_symptoms",
+    "text_length": 5
+  },
+  {
+    "text": "My energy levels are back to normal",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 7
+  },
+  {
+    "text": "The bleeding has not stopped",
+    "sentiment": "anxious",
+    "intent": "reporting_symptoms",
+    "text_length": 5
+  },
+  {
+    "text": "The dizziness is making it hard to function",
+    "sentiment": "anxious",
+    "intent": "reporting_symptoms",
+    "text_length": 8
+  },
+  {
+    "text": "I am terrified of the MRI results",
+    "sentiment": "anxious",
+    "intent": "expressing_concern",
+    "text_length": 7
+  },
+  {
+    "text": "I have adjusted my lifestyle accordingly",
+    "sentiment": "neutral",
+    "intent": "reporting_symptoms",
+    "text_length": 6
+  },
+  {
+    "text": "I can eat without any problems now",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 7
+  },
+  {
+    "text": "The symptoms are intermittent",
+    "sentiment": "neutral",
+    "intent": "reporting_symptoms",
+    "text_length": 4
+  },
+  {
+    "text": "The medication has some side effects",
+    "sentiment": "neutral",
+    "intent": "reporting_symptoms",
+    "text_length": 6
+  },
+  {
+    "text": "My wounds are not healing properly",
+    "sentiment": "anxious",
+    "intent": "reporting_symptoms",
+    "text_length": 6
+  },
+  {
+    "text": "The fatigue is completely gone",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 5
+  },
+  {
+    "text": "The chronic pain is finally manageable",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 6
+  },
+  {
+    "text": "My reflexes seem slow",
+    "sentiment": "anxious",
+    "intent": "reporting_symptoms",
+    "text_length": 4
+  },
+  {
+    "text": "I have been keeping a symptom diary",
+    "sentiment": "neutral",
+    "intent": "reporting_symptoms",
+    "text_length": 7
+  },
+  {
+    "text": "Should I get a second opinion?",
+    "sentiment": "neutral",
+    "intent": "asking_questions",
+    "text_length": 6
+  },
+  {
+    "text": "The exercises are manageable",
+    "sentiment": "neutral",
+    "intent": "reporting_symptoms",
+    "text_length": 4
+  },
+  {
+    "text": "When should I expect results?",
+    "sentiment": "neutral",
+    "intent": "asking_questions",
+    "text_length": 5
+  },
+  {
+    "text": "My appointment is scheduled for next week",
+    "sentiment": "neutral",
+    "intent": "confirming_understanding",
+    "text_length": 7
+  },
+  {
+    "text": "I have made the dietary changes",
+    "sentiment": "neutral",
+    "intent": "reporting_symptoms",
+    "text_length": 6
+  },
+  {
+    "text": "The anxiety has lifted",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 4
+  },
+  {
+    "text": "The pain keeps me awake all night",
+    "sentiment": "anxious",
+    "intent": "reporting_symptoms",
+    "text_length": 7
+  },
+  {
+    "text": "My tests show significant improvement",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 5
+  },
+  {
+    "text": "My symptoms have improved dramatically",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 5
+  },
+  {
+    "text": "I am worried about permanent damage",
+    "sentiment": "anxious",
+    "intent": "expressing_concern",
+    "text_length": 6
+  },
+  {
+    "text": "The swelling has not gone down",
+    "sentiment": "anxious",
+    "intent": "reporting_symptoms",
+    "text_length": 6
+  },
+  {
+    "text": "The joint pain is debilitating",
+    "sentiment": "anxious",
+    "intent": "reporting_symptoms",
+    "text_length": 5
+  },
+  {
+    "text": "The treatment plan worked perfectly",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 5
+  },
+  {
+    "text": "The treatment has transformed my life",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 6
+  },
+  {
+    "text": "The numbness has completely resolved",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 5
+  },
+  {
+    "text": "Everything has healed perfectly",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 4
+  },
+  {
+    "text": "I am due for a checkup",
+    "sentiment": "neutral",
+    "intent": "confirming_understanding",
+    "text_length": 6
+  },
+  {
+    "text": "I am finally back to living my life",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 8
+  },
+  {
+    "text": "The symptoms occur occasionally",
+    "sentiment": "neutral",
+    "intent": "reporting_symptoms",
+    "text_length": 4
+  },
+  {
+    "text": "I am worried about my children inheriting this",
+    "sentiment": "anxious",
+    "intent": "expressing_concern",
+    "text_length": 8
+  },
+  {
+    "text": "I can play with my kids again",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 7
+  },
+  {
+    "text": "What are the warning signs to watch for?",
+    "sentiment": "neutral",
+    "intent": "asking_questions",
+    "text_length": 8
+  },
+  {
+    "text": "The swelling has gone down completely",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 6
+  },
+  {
+    "text": "The symptoms have completely disappeared",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 5
+  },
+  {
+    "text": "How often should I take this?",
+    "sentiment": "neutral",
+    "intent": "asking_questions",
+    "text_length": 6
+  },
+  {
+    "text": "Will I need to be hospitalized?",
+    "sentiment": "anxious",
+    "intent": "seeking_reassurance",
+    "text_length": 6
+  },
+  {
+    "text": "I am having difficulty swallowing",
+    "sentiment": "anxious",
+    "intent": "reporting_symptoms",
+    "text_length": 5
+  },
+  {
+    "text": "The pain is almost completely gone",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 6
+  },
+  {
+    "text": "I am following the recovery protocol",
+    "sentiment": "neutral",
+    "intent": "reporting_symptoms",
+    "text_length": 6
+  },
+  {
+    "text": "Will my insurance cover this?",
+    "sentiment": "anxious",
+    "intent": "expressing_concern",
+    "text_length": 5
+  },
+  {
+    "text": "I am scared I might pass out again",
+    "sentiment": "anxious",
+    "intent": "expressing_concern",
+    "text_length": 8
+  },
+  {
+    "text": "The rash is spreading rapidly",
+    "sentiment": "anxious",
+    "intent": "reporting_symptoms",
+    "text_length": 5
+  },
+  {
+    "text": "How long until I see improvement?",
+    "sentiment": "neutral",
+    "intent": "asking_questions",
+    "text_length": 6
+  },
+  {
+    "text": "I am taking my medication as prescribed",
+    "sentiment": "neutral",
+    "intent": "reporting_symptoms",
+    "text_length": 7
+  },
+  {
+    "text": "I can drive again without issues",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 6
+  },
+  {
+    "text": "What should I avoid eating?",
+    "sentiment": "neutral",
+    "intent": "asking_questions",
+    "text_length": 5
+  },
+  {
+    "text": "The test is scheduled for tomorrow",
+    "sentiment": "neutral",
+    "intent": "confirming_understanding",
+    "text_length": 6
+  },
+  {
+    "text": "The medication is working wonders",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 5
+  },
+  {
+    "text": "The wound has healed beautifully",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 5
+  },
+  {
+    "text": "The condition requires ongoing management",
+    "sentiment": "neutral",
+    "intent": "confirming_understanding",
+    "text_length": 5
+  },
+  {
+    "text": "I am feeling much better already",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 6
+  },
+  {
+    "text": "The infection has completely cleared",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 5
+  },
+  {
+    "text": "I have noticed some changes",
+    "sentiment": "neutral",
+    "intent": "reporting_symptoms",
+    "text_length": 5
+  },
+  {
+    "text": "What if the tumor has spread?",
+    "sentiment": "anxious",
+    "intent": "seeking_reassurance",
+    "text_length": 6
+  },
+  {
+    "text": "I am afraid of the chemotherapy side effects",
+    "sentiment": "anxious",
+    "intent": "expressing_concern",
+    "text_length": 8
+  },
+  {
+    "text": "What if the doctors missed something?",
+    "sentiment": "anxious",
+    "intent": "expressing_concern",
+    "text_length": 6
+  },
+  {
+    "text": "The tremors are getting worse",
+    "sentiment": "anxious",
+    "intent": "reporting_symptoms",
+    "text_length": 5
+  },
+  {
+    "text": "I have regained my strength",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 5
+  },
+  {
+    "text": "I am scared of going blind",
+    "sentiment": "anxious",
+    "intent": "expressing_concern",
+    "text_length": 6
+  },
+  {
+    "text": "My quality of life has improved so much",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 8
+  },
+  {
+    "text": "I understand I need to fast before the test",
+    "sentiment": "neutral",
+    "intent": "confirming_understanding",
+    "text_length": 9
+  },
+  {
+    "text": "The recovery was smooth and quick",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 6
+  },
+  {
+    "text": "I am scared to do the procedure",
+    "sentiment": "anxious",
+    "intent": "expressing_concern",
+    "text_length": 7
+  },
+  {
+    "text": "I have been monitoring my glucose levels",
+    "sentiment": "neutral",
+    "intent": "reporting_symptoms",
+    "text_length": 7
+  },
+  {
+    "text": "I can move freely without pain now",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 7
+  },
+  {
+    "text": "My vision has been getting blurry",
+    "sentiment": "anxious",
+    "intent": "reporting_symptoms",
+    "text_length": 6
+  },
+  {
+    "text": "I have been taking notes on my symptoms",
+    "sentiment": "neutral",
+    "intent": "reporting_symptoms",
+    "text_length": 8
+  },
+  {
+    "text": "Thank goodness it is nothing serious",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 6
+  },
+  {
+    "text": "I am walking without assistance now",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 6
+  },
+  {
+    "text": "I can breathe easily again",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 5
+  },
+  {
+    "text": "The treatment requires daily attention",
+    "sentiment": "neutral",
+    "intent": "confirming_understanding",
+    "text_length": 5
+  },
+  {
+    "text": "Is this a sign of something worse?",
+    "sentiment": "anxious",
+    "intent": "seeking_reassurance",
+    "text_length": 7
+  },
+  {
+    "text": "The readings have been consistent",
+    "sentiment": "neutral",
+    "intent": "reporting_symptoms",
+    "text_length": 5
+  },
+  {
+    "text": "The pain wakes me up at night",
+    "sentiment": "anxious",
+    "intent": "reporting_symptoms",
+    "text_length": 7
+  },
+  {
+    "text": "Is this condition chronic?",
+    "sentiment": "anxious",
+    "intent": "seeking_reassurance",
+    "text_length": 4
+  },
+  {
+    "text": "My mobility has fully returned",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 5
+  },
+  {
+    "text": "I have been having panic attacks more frequently",
+    "sentiment": "anxious",
+    "intent": "reporting_symptoms",
+    "text_length": 8
+  },
+  {
+    "text": "I have been having severe mood swings",
+    "sentiment": "anxious",
+    "intent": "reporting_symptoms",
+    "text_length": 7
+  },
+  {
+    "text": "The pain is manageable with medication",
+    "sentiment": "neutral",
+    "intent": "reporting_symptoms",
+    "text_length": 6
+  },
+  {
+    "text": "Will I need dialysis?",
+    "sentiment": "anxious",
+    "intent": "seeking_reassurance",
+    "text_length": 4
+  },
+  {
+    "text": "I feel stronger every day",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 5
+  },
+  {
+    "text": "I have been avoiding strenuous activities",
+    "sentiment": "neutral",
+    "intent": "reporting_symptoms",
+    "text_length": 6
+  },
+  {
+    "text": "My condition is stable for now",
+    "sentiment": "neutral",
+    "intent": "reporting_symptoms",
+    "text_length": 6
+  },
+  {
+    "text": "The allergic reactions have stopped",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 5
+  },
+  {
+    "text": "I am amazed at how well I have healed",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 9
+  },
+  {
+    "text": "My lymph nodes are swollen",
+    "sentiment": "anxious",
+    "intent": "reporting_symptoms",
+    "text_length": 5
+  },
+  {
+    "text": "I am worried about the recovery time",
+    "sentiment": "anxious",
+    "intent": "expressing_concern",
+    "text_length": 7
+  },
+  {
+    "text": "My energy levels vary throughout the day",
+    "sentiment": "neutral",
+    "intent": "reporting_symptoms",
+    "text_length": 7
+  },
+  {
+    "text": "I understand the risks involved",
+    "sentiment": "neutral",
+    "intent": "confirming_understanding",
+    "text_length": 5
+  },
+  {
+    "text": "The physical therapy sessions are ongoing",
+    "sentiment": "neutral",
+    "intent": "reporting_symptoms",
+    "text_length": 6
+  },
+  {
+    "text": "I have been resting as advised",
+    "sentiment": "neutral",
+    "intent": "reporting_symptoms",
+    "text_length": 6
+  },
+  {
+    "text": "What if it is appendicitis?",
+    "sentiment": "anxious",
+    "intent": "seeking_reassurance",
+    "text_length": 5
+  },
+  {
+    "text": "What happens if the condition worsens?",
+    "sentiment": "anxious",
+    "intent": "expressing_concern",
+    "text_length": 6
+  },
+  {
+    "text": "The surgery was a complete success",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 6
+  },
+  {
+    "text": "My family has a history of cancer, am I at risk?",
+    "sentiment": "anxious",
+    "intent": "seeking_reassurance",
+    "text_length": 11
+  },
+  {
+    "text": "I am scared I will have another episode",
+    "sentiment": "anxious",
+    "intent": "expressing_concern",
+    "text_length": 8
+  },
+  {
+    "text": "The pain shoots down my arm",
+    "sentiment": "anxious",
+    "intent": "reporting_symptoms",
+    "text_length": 6
+  },
+  {
+    "text": "Is there any chance this could be hereditary?",
+    "sentiment": "anxious",
+    "intent": "seeking_reassurance",
+    "text_length": 8
+  },
+  {
+    "text": "My diet has been consistent",
+    "sentiment": "neutral",
+    "intent": "reporting_symptoms",
+    "text_length": 5
+  },
+  {
+    "text": "The physical therapy has been amazing",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 6
+  },
+  {
+    "text": "The treatment is really working",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 5
+  },
+  {
+    "text": "The fatigue is overwhelming",
+    "sentiment": "anxious",
+    "intent": "reporting_symptoms",
+    "text_length": 4
+  },
+  {
+    "text": "The pressure in my chest is constant",
+    "sentiment": "anxious",
+    "intent": "reporting_symptoms",
+    "text_length": 7
+  },
+  {
+    "text": "I can finally do things I couldn't before",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 8
+  },
+  {
+    "text": "I notice the symptoms after meals",
+    "sentiment": "neutral",
+    "intent": "reporting_symptoms",
+    "text_length": 6
+  },
+  {
+    "text": "I have been wearing the brace as instructed",
+    "sentiment": "neutral",
+    "intent": "reporting_symptoms",
+    "text_length": 8
+  },
+  {
+    "text": "I can finally sleep through the night",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 7
+  }
+]

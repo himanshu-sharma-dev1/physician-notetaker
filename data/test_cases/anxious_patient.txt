@@ -1,0 +1,31 @@
+Physician: Good afternoon, Mr. Thompson. What brings you in today?
+
+Patient: Hi doctor. I've been having these terrible headaches for the past two weeks. They're really worrying me.
+
+Physician: I'm sorry to hear that. Can you describe the headaches for me?
+
+Patient: They start behind my eyes and spread to the back of my head. Sometimes I feel nauseous too. I'm scared it might be something serious.
+
+Physician: I understand your concern. Have you noticed any triggers for these headaches?
+
+Patient: I think stress might be a factor. I've been working long hours and not sleeping well. But what if it's a brain tumor or something?
+
+Physician: Let's not jump to conclusions. Based on what you're describing, this sounds like tension headaches, which are very common. Have you tried any medication?
+
+Patient: Just some over-the-counter ibuprofen. It helps a little but I'm still worried.
+
+Physician: I'd like to do a neurological examination to rule out any concerns. 
+
+[Physical Examination Conducted]
+
+Physician: Your neurological exam is completely normal. Your reflexes, coordination, and vision are all fine. This is consistent with tension-type headaches.
+
+Patient: But are you sure? I keep reading online about all these scary conditions...
+
+Physician: I understand the anxiety, but your symptoms and examination don't suggest anything serious. I recommend reducing screen time, managing stress, and we can try a preventive medication if the headaches persist.
+
+Patient: Okay... I guess that makes me feel a little better. What should I do if they get worse?
+
+Physician: If you experience sudden severe headaches, vision changes, or weakness, come back immediately. Otherwise, let's schedule a follow-up in two weeks to see how you're doing.
+
+Patient: Thank you, doctor. I'll try not to worry so much.

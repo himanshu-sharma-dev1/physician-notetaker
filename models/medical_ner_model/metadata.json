@@ -1,0 +1,14 @@
+{
+  "model_name": "medical_ner",
+  "labels": [
+    "BODY_PART",
+    "DIAGNOSIS",
+    "DURATION",
+    "SYMPTOM",
+    "TREATMENT"
+  ],
+  "training_examples": 105,
+  "epochs": 30,
+  "final_loss": 8.433996825232857,
+  "spacy_version": "3.7.4"
+}

@@ -1,0 +1,194 @@
+[
+  {
+    "text": "My sleep patterns have changed",
+    "sentiment": "neutral",
+    "intent": "reporting_symptoms",
+    "text_length": 5
+  },
+  {
+    "text": "I cannot bend my knee anymore",
+    "sentiment": "anxious",
+    "intent": "reporting_symptoms",
+    "text_length": 6
+  },
+  {
+    "text": "I have never felt this sick before",
+    "sentiment": "anxious",
+    "intent": "reporting_symptoms",
+    "text_length": 7
+  },
+  {
+    "text": "I am worried about the anesthesia",
+    "sentiment": "anxious",
+    "intent": "expressing_concern",
+    "text_length": 6
+  },
+  {
+    "text": "The pain is unbearable, I can barely function",
+    "sentiment": "anxious",
+    "intent": "reporting_symptoms",
+    "text_length": 8
+  },
+  {
+    "text": "that is such a relief to hear!",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 7
+  },
+  {
+    "text": "I am back to my normal routine",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 7
+  },
+  {
+    "text": "I have been sweating profusely at night",
+    "sentiment": "anxious",
+    "intent": "reporting_symptoms",
+    "text_length": 7
+  },
+  {
+    "text": "My weight has been stable",
+    "sentiment": "neutral",
+    "intent": "reporting_symptoms",
+    "text_length": 5
+  },
+  {
+    "text": "When is my next appointment?",
+    "sentiment": "neutral",
+    "intent": "asking_questions",
+    "text_length": 5
+  },
+  {
+    "text": "I am feeling fantastic",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 4
+  },
+  {
+    "text": "I finally have peace of mind",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 6
+  },
+  {
+    "text": "I have been staying hydrated",
+    "sentiment": "neutral",
+    "intent": "reporting_symptoms",
+    "text_length": 5
+  },
+  {
+    "text": "My blood pressure is normal now",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 6
+  },
+  {
+    "text": "The symptoms have been stable",
+    "sentiment": "neutral",
+    "intent": "reporting_symptoms",
+    "text_length": 5
+  },
+  {
+    "text": "I can barely walk up stairs",
+    "sentiment": "anxious",
+    "intent": "reporting_symptoms",
+    "text_length": 6
+  },
+  {
+    "text": "I keep thinking the worst is going to happen",
+    "sentiment": "anxious",
+    "intent": "expressing_concern",
+    "text_length": 9
+  },
+  {
+    "text": "The treatment takes about an hour",
+    "sentiment": "neutral",
+    "intent": "confirming_understanding",
+    "text_length": 6
+  },
+  {
+    "text": "The prognosis is excellent",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 4
+  },
+  {
+    "text": "My condition is in complete remission",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 6
+  },
+  {
+    "text": "My blood work came back perfect",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 6
+  },
+  {
+    "text": "I can hear perfectly again",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 5
+  },
+  {
+    "text": "I can focus clearly again",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 5
+  },
+  {
+    "text": "I am worried I might have a heart attack",
+    "sentiment": "anxious",
+    "intent": "expressing_concern",
+    "text_length": 9
+  },
+  {
+    "text": "My vision has returned to normal",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 6
+  },
+  {
+    "text": "I understand the procedure now",
+    "sentiment": "neutral",
+    "intent": "confirming_understanding",
+    "text_length": 5
+  },
+  {
+    "text": "The treatment exceeded my expectations",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 5
+  },
+  {
+    "text": "The medication timing is important",
+    "sentiment": "neutral",
+    "intent": "confirming_understanding",
+    "text_length": 5
+  },
+  {
+    "text": "My legs are swelling up",
+    "sentiment": "anxious",
+    "intent": "reporting_symptoms",
+    "text_length": 5
+  },
+  {
+    "text": "The itching is driving me crazy",
+    "sentiment": "anxious",
+    "intent": "reporting_symptoms",
+    "text_length": 6
+  },
+  {
+    "text": "I feel completely healthy again",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 5
+  },
+  {
+    "text": "I am feeling hopeful about my recovery",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 7
+  }
+]

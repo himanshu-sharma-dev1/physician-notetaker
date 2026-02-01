@@ -1,0 +1,188 @@
+[
+  {
+    "text": "I am so grateful for your help",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 7
+  },
+  {
+    "text": "The symptoms are getting worse every day",
+    "sentiment": "anxious",
+    "intent": "reporting_symptoms",
+    "text_length": 7
+  },
+  {
+    "text": "The medication schedule is clear",
+    "sentiment": "neutral",
+    "intent": "confirming_understanding",
+    "text_length": 5
+  },
+  {
+    "text": "The wound is healing normally",
+    "sentiment": "neutral",
+    "intent": "reporting_symptoms",
+    "text_length": 5
+  },
+  {
+    "text": "What triggers these symptoms?",
+    "sentiment": "neutral",
+    "intent": "asking_questions",
+    "text_length": 4
+  },
+  {
+    "text": "Is this allergic reaction dangerous?",
+    "sentiment": "anxious",
+    "intent": "seeking_reassurance",
+    "text_length": 5
+  },
+  {
+    "text": "The recovery is progressing as expected",
+    "sentiment": "neutral",
+    "intent": "reporting_symptoms",
+    "text_length": 6
+  },
+  {
+    "text": "I am back to work full time",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 7
+  },
+  {
+    "text": "I cannot thank you enough",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 5
+  },
+  {
+    "text": "I will need to schedule a follow-up",
+    "sentiment": "neutral",
+    "intent": "confirming_understanding",
+    "text_length": 7
+  },
+  {
+    "text": "The tingling in my fingers is constant",
+    "sentiment": "anxious",
+    "intent": "reporting_symptoms",
+    "text_length": 7
+  },
+  {
+    "text": "I need to know the next steps",
+    "sentiment": "neutral",
+    "intent": "asking_questions",
+    "text_length": 7
+  },
+  {
+    "text": "I am terrified of having a seizure",
+    "sentiment": "anxious",
+    "intent": "expressing_concern",
+    "text_length": 7
+  },
+  {
+    "text": "The healing process takes time",
+    "sentiment": "neutral",
+    "intent": "confirming_understanding",
+    "text_length": 5
+  },
+  {
+    "text": "What are the possible interactions?",
+    "sentiment": "neutral",
+    "intent": "asking_questions",
+    "text_length": 5
+  },
+  {
+    "text": "I can barely eat because of the nausea",
+    "sentiment": "anxious",
+    "intent": "reporting_symptoms",
+    "text_length": 8
+  },
+  {
+    "text": "The symptoms have not returned",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 5
+  },
+  {
+    "text": "I have been having trouble remembering things",
+    "sentiment": "anxious",
+    "intent": "reporting_symptoms",
+    "text_length": 7
+  },
+  {
+    "text": "What if the surgery goes wrong?",
+    "sentiment": "anxious",
+    "intent": "expressing_concern",
+    "text_length": 6
+  },
+  {
+    "text": "I am worried about affording the treatment",
+    "sentiment": "anxious",
+    "intent": "expressing_concern",
+    "text_length": 7
+  },
+  {
+    "text": "My skin has turned yellow",
+    "sentiment": "anxious",
+    "intent": "reporting_symptoms",
+    "text_length": 5
+  },
+  {
+    "text": "Will I be able to drive again?",
+    "sentiment": "anxious",
+    "intent": "seeking_reassurance",
+    "text_length": 7
+  },
+  {
+    "text": "The therapy sessions are twice weekly",
+    "sentiment": "neutral",
+    "intent": "confirming_understanding",
+    "text_length": 6
+  },
+  {
+    "text": "Should I continue with the current dose?",
+    "sentiment": "neutral",
+    "intent": "asking_questions",
+    "text_length": 7
+  },
+  {
+    "text": "Is there an alternative medication?",
+    "sentiment": "neutral",
+    "intent": "asking_questions",
+    "text_length": 5
+  },
+  {
+    "text": "I am worried about going under anesthesia",
+    "sentiment": "anxious",
+    "intent": "expressing_concern",
+    "text_length": 7
+  },
+  {
+    "text": "The prescription needs to be refilled",
+    "sentiment": "neutral",
+    "intent": "confirming_understanding",
+    "text_length": 6
+  },
+  {
+    "text": "I have been tracking my blood pressure daily",
+    "sentiment": "neutral",
+    "intent": "reporting_symptoms",
+    "text_length": 8
+  },
+  {
+    "text": "The recovery has been faster than expected",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 7
+  },
+  {
+    "text": "The lump seems to be growing",
+    "sentiment": "anxious",
+    "intent": "reporting_symptoms",
+    "text_length": 6
+  },
+  {
+    "text": "My appetite has returned to normal",
+    "sentiment": "reassured",
+    "intent": "expressing_relief",
+    "text_length": 6
+  }
+]

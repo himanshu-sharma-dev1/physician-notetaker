@@ -1,0 +1,150 @@
+[
+  [
+    "For cholesterol, I'm adding atorvastatin 20mg at bedtime.",
+    {
+      "entities": [
+        [
+          28,
+          45,
+          "TREATMENT"
+        ]
+      ]
+    }
+  ],
+  [
+    "I had to take painkillers regularly and go through ten sessions of physiotherapy.",
+    {
+      "entities": [
+        [
+          14,
+          25,
+          "TREATMENT"
+        ],
+        [
+          67,
+          80,
+          "TREATMENT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Your blood pressure is elevated at 150/95.",
+    {
+      "entities": [
+        [
+          5,
+          19,
+          "SYMPTOM"
+        ]
+      ]
+    }
+  ],
+  [
+    "I'm starting you on levothyroxine 50 micrograms daily.",
+    {
+      "entities": [
+        [
+          20,
+          53,
+          "TREATMENT"
+        ]
+      ]
+    }
+  ],
+  [
+    "I'm prescribing antibiotics for your infection.",
+    {
+      "entities": [
+        [
+          16,
+          27,
+          "TREATMENT"
+        ]
+      ]
+    }
+  ],
+  [
+    "They start behind my eyes and spread to the back of my head. Sometimes I feel nauseous too.",
+    {
+      "entities": [
+        [
+          20,
+          24,
+          "BODY_PART"
+        ],
+        [
+          49,
+          53,
+          "BODY_PART"
+        ],
+        [
+          78,
+          86,
+          "SYMPTOM"
+        ]
+      ]
+    }
+  ],
+  [
+    "My hair seems thinner and my skin is really dry.",
+    {
+      "entities": [
+        [
+          3,
+          21,
+          "SYMPTOM"
+        ],
+        [
+          30,
+          47,
+          "SYMPTOM"
+        ],
+        [
+          3,
+          7,
+          "BODY_PART"
+        ],
+        [
+          30,
+          34,
+          "BODY_PART"
+        ]
+      ]
+    }
+  ],
+  [
+    "He's been having diarrhea for about a week now. And he throws up sometimes too.",
+    {
+      "entities": [
+        [
+          17,
+          25,
+          "SYMPTOM"
+        ],
+        [
+          56,
+          65,
+          "SYMPTOM"
+        ]
+      ]
+    }
+  ],
+  [
+    "Your neck and back have a full range of movement, and there's no tenderness.",
+    {
+      "entities": [
+        [
+          5,
+          9,
+          "BODY_PART"
+        ],
+        [
+          14,
+          18,
+          "BODY_PART"
+        ]
+      ]
+    }
+  ]
+]

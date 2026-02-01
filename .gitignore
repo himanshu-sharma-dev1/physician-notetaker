@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.env
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Cache
+.cache/
+*.log
+
+# Don't ignore models - we need them!
+# models/
+models/medical_sentiment_production/model.safetensors
+models/medical_sentiment_production/model.safetensors

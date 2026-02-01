@@ -1,0 +1,631 @@
+[
+  [
+    "I've also noticed I'm always cold, even when others are comfortable.",
+    {
+      "entities": [
+        [
+          23,
+          34,
+          "SYMPTOM"
+        ]
+      ]
+    }
+  ],
+  [
+    "My tummy hurts a lot. And I've been pooping a lot.",
+    {
+      "entities": [
+        [
+          3,
+          14,
+          "SYMPTOM"
+        ],
+        [
+          3,
+          8,
+          "BODY_PART"
+        ],
+        [
+          36,
+          49,
+          "SYMPTOM"
+        ]
+      ]
+    }
+  ],
+  [
+    "Use HEPA air filters and vacuum frequently.",
+    {
+      "entities": [
+        [
+          4,
+          20,
+          "TREATMENT"
+        ]
+      ]
+    }
+  ],
+  [
+    "There's a small mass in your left breast that wasn't there on your previous scan.",
+    {
+      "entities": [
+        [
+          12,
+          22,
+          "SYMPTOM"
+        ],
+        [
+          31,
+          42,
+          "BODY_PART"
+        ]
+      ]
+    }
+  ],
+  [
+    "Your blood glucose levels indicate pre-diabetes.",
+    {
+      "entities": [
+        [
+          35,
+          47,
+          "DIAGNOSIS"
+        ]
+      ]
+    }
+  ],
+  [
+    "You need to take insulin twice daily for your diabetes.",
+    {
+      "entities": [
+        [
+          17,
+          24,
+          "TREATMENT"
+        ],
+        [
+          47,
+          55,
+          "DIAGNOSIS"
+        ]
+      ]
+    }
+  ],
+  [
+    "The ECG shows atrial fibrillation.",
+    {
+      "entities": [
+        [
+          14,
+          33,
+          "DIAGNOSIS"
+        ]
+      ]
+    }
+  ],
+  [
+    "We can try a preventive medication if the headaches persist.",
+    {
+      "entities": [
+        [
+          13,
+          34,
+          "TREATMENT"
+        ],
+        [
+          42,
+          51,
+          "SYMPTOM"
+        ]
+      ]
+    }
+  ],
+  [
+    "The morning stiffness lasts about an hour or more.",
+    {
+      "entities": [
+        [
+          4,
+          21,
+          "SYMPTOM"
+        ]
+      ]
+    }
+  ],
+  [
+    "This looks like a viral gastroenteritis - a stomach bug.",
+    {
+      "entities": [
+        [
+          18,
+          39,
+          "DIAGNOSIS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Sometimes food comes back up into my throat.",
+    {
+      "entities": [
+        [
+          10,
+          43,
+          "SYMPTOM"
+        ],
+        [
+          38,
+          44,
+          "BODY_PART"
+        ]
+      ]
+    }
+  ],
+  [
+    "You can use acetaminophen for fever.",
+    {
+      "entities": [
+        [
+          12,
+          25,
+          "TREATMENT"
+        ],
+        [
+          30,
+          35,
+          "SYMPTOM"
+        ]
+      ]
+    }
+  ],
+  [
+    "Based on those results, we may recommend a biopsy.",
+    {
+      "entities": [
+        [
+          43,
+          49,
+          "TREATMENT"
+        ]
+      ]
+    }
+  ],
+  [
+    "This sounds like tension headaches, which are very common.",
+    {
+      "entities": [
+        [
+          17,
+          34,
+          "DIAGNOSIS"
+        ]
+      ]
+    }
+  ],
+  [
+    "You likely have gastroesophageal reflux disease, or GERD.",
+    {
+      "entities": [
+        [
+          16,
+          47,
+          "DIAGNOSIS"
+        ],
+        [
+          52,
+          56,
+          "DIAGNOSIS"
+        ]
+      ]
+    }
+  ],
+  [
+    "It's caused by tiny crystals in your inner ear that get displaced.",
+    {
+      "entities": [
+        [
+          38,
+          47,
+          "BODY_PART"
+        ]
+      ]
+    }
+  ],
+  [
+    "The MRI shows a herniated disc at L4-L5.",
+    {
+      "entities": [
+        [
+          16,
+          30,
+          "DIAGNOSIS"
+        ],
+        [
+          34,
+          39,
+          "BODY_PART"
+        ]
+      ]
+    }
+  ],
+  [
+    "My knuckles sometimes look puffy, and my wedding ring doesn't fit anymore.",
+    {
+      "entities": [
+        [
+          3,
+          11,
+          "BODY_PART"
+        ],
+        [
+          22,
+          32,
+          "SYMPTOM"
+        ]
+      ]
+    }
+  ],
+  [
+    "Your TSH is elevated at 12.5, and your free T4 is low. This confirms hypothyroidism.",
+    {
+      "entities": [
+        [
+          70,
+          84,
+          "DIAGNOSIS"
+        ]
+      ]
+    }
+  ],
+  [
+    "I've been having more asthma attacks lately, especially at night.",
+    {
+      "entities": [
+        [
+          22,
+          36,
+          "SYMPTOM"
+        ]
+      ]
+    }
+  ],
+  [
+    "My fingers feel so stiff I can barely make a fist.",
+    {
+      "entities": [
+        [
+          19,
+          24,
+          "SYMPTOM"
+        ],
+        [
+          3,
+          10,
+          "BODY_PART"
+        ]
+      ]
+    }
+  ],
+  [
+    "I'm prescribing lisinopril 10mg daily for your blood pressure.",
+    {
+      "entities": [
+        [
+          16,
+          37,
+          "TREATMENT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Push clear fluids - small sips frequently. Pedialyte is great.",
+    {
+      "entities": [
+        [
+          5,
+          17,
+          "TREATMENT"
+        ],
+        [
+          43,
+          52,
+          "TREATMENT"
+        ]
+      ]
+    }
+  ],
+  [
+    "We'll do a diagnostic mammogram with additional views, and likely an ultrasound.",
+    {
+      "entities": [
+        [
+          11,
+          31,
+          "TREATMENT"
+        ],
+        [
+          69,
+          79,
+          "TREATMENT"
+        ]
+      ]
+    }
+  ],
+  [
+    "I'm going to prescribe omeprazole 20mg daily before breakfast.",
+    {
+      "entities": [
+        [
+          23,
+          40,
+          "TREATMENT"
+        ]
+      ]
+    }
+  ],
+  [
+    "I wake up coughing and can't breathe properly.",
+    {
+      "entities": [
+        [
+          10,
+          18,
+          "SYMPTOM"
+        ],
+        [
+          23,
+          45,
+          "SYMPTOM"
+        ]
+      ]
+    }
+  ],
+  [
+    "Physician: Good morning, Ms. Jones. How are you feeling today?\n\nPatient: Good morning, doctor. I'm doing better, but I still have some discomfort now and then.",
+    {
+      "entities": [
+        [
+          114,
+          124,
+          "SYMPTOM"
+        ]
+      ]
+    }
+  ],
+  [
+    "He had a fever, it was 101\u00b0F yesterday.",
+    {
+      "entities": [
+        [
+          9,
+          14,
+          "SYMPTOM"
+        ]
+      ]
+    }
+  ],
+  [
+    "I'd expect you to make a full recovery within six months.",
+    {
+      "entities": [
+        [
+          25,
+          38,
+          "PROGNOSIS"
+        ]
+      ]
+    }
+  ],
+  [
+    "I've been having these terrible headaches for the past two weeks.",
+    {
+      "entities": [
+        [
+          23,
+          41,
+          "SYMPTOM"
+        ]
+      ]
+    }
+  ],
+  [
+    "We'd start disease-modifying medications early to prevent joint damage.",
+    {
+      "entities": [
+        [
+          12,
+          42,
+          "TREATMENT"
+        ]
+      ]
+    }
+  ],
+  [
+    "I'm concerned this could be rheumatoid arthritis.",
+    {
+      "entities": [
+        [
+          28,
+          48,
+          "DIAGNOSIS"
+        ]
+      ]
+    }
+  ],
+  [
+    "They said it was a whiplash injury, but they didn't do any X-rays.",
+    {
+      "entities": [
+        [
+          19,
+          34,
+          "DIAGNOSIS"
+        ]
+      ]
+    }
+  ],
+  [
+    "I do get occasional backaches. It's nothing like before, though.",
+    {
+      "entities": [
+        [
+          20,
+          29,
+          "SYMPTOM"
+        ],
+        [
+          10,
+          29,
+          "SYMPTOM"
+        ]
+      ]
+    }
+  ],
+  [
+    "Your X-ray shows mild osteoarthritis in your right knee.",
+    {
+      "entities": [
+        [
+          17,
+          37,
+          "DIAGNOSIS"
+        ],
+        [
+          50,
+          54,
+          "BODY_PART"
+        ]
+      ]
+    }
+  ],
+  [
+    "I'm going to add a daily inhaled corticosteroid - fluticasone, two puffs twice daily.",
+    {
+      "entities": [
+        [
+          25,
+          48,
+          "TREATMENT"
+        ],
+        [
+          51,
+          62,
+          "TREATMENT"
+        ]
+      ]
+    }
+  ],
+  [
+    "You have benign paroxysmal positional vertigo, or BPPV.",
+    {
+      "entities": [
+        [
+          9,
+          45,
+          "DIAGNOSIS"
+        ],
+        [
+          50,
+          54,
+          "DIAGNOSIS"
+        ]
+      ]
+    }
+  ],
+  [
+    "My hands and wrists hurt a lot, especially in the morning.",
+    {
+      "entities": [
+        [
+          3,
+          8,
+          "BODY_PART"
+        ],
+        [
+          13,
+          19,
+          "BODY_PART"
+        ],
+        [
+          20,
+          24,
+          "SYMPTOM"
+        ]
+      ]
+    }
+  ],
+  [
+    "I had pain in my neck and back almost right away.",
+    {
+      "entities": [
+        [
+          14,
+          18,
+          "SYMPTOM"
+        ],
+        [
+          25,
+          29,
+          "BODY_PART"
+        ],
+        [
+          34,
+          38,
+          "BODY_PART"
+        ]
+      ]
+    }
+  ],
+  [
+    "I've had this burning feeling in my chest, especially after eating.",
+    {
+      "entities": [
+        [
+          14,
+          41,
+          "SYMPTOM"
+        ],
+        [
+          35,
+          40,
+          "BODY_PART"
+        ]
+      ]
+    }
+  ],
+  [
+    "We'll start you on blood thinners to prevent stroke.",
+    {
+      "entities": [
+        [
+          19,
+          33,
+          "TREATMENT"
+        ],
+        [
+          45,
+          51,
+          "DIAGNOSIS"
+        ]
+      ]
+    }
+  ],
+  [
+    "There is some ringing in my right ear.",
+    {
+      "entities": [
+        [
+          14,
+          21,
+          "SYMPTOM"
+        ],
+        [
+          28,
+          37,
+          "BODY_PART"
+        ]
+      ]
+    }
+  ]
+]

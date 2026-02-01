@@ -1,0 +1,57 @@
+{
+  "symptoms": [
+    "neck pain", "back pain", "headache", "head injury", "head impact",
+    "stiffness", "discomfort", "pain", "trouble sleeping", "insomnia",
+    "anxiety", "dizziness", "nausea", "fatigue", "weakness",
+    "numbness", "tingling", "swelling", "bruising", "tenderness",
+    "muscle spasm", "limited mobility", "difficulty concentrating",
+    "memory problems", "blurred vision", "ringing in ears",
+    "shoulder pain", "arm pain", "leg pain", "chest pain",
+    "shortness of breath", "cough", "fever", "chills",
+    "loss of appetite", "weight loss", "abdominal pain"
+  ],
+  "treatments": [
+    "physiotherapy", "physical therapy", "painkillers", "analgesics",
+    "anti-inflammatory medication", "muscle relaxants", "rest",
+    "ice therapy", "heat therapy", "massage therapy", "chiropractic care",
+    "acupuncture", "surgery", "injections", "steroid injection",
+    "X-ray", "MRI", "CT scan", "ultrasound", "blood test",
+    "prescription medication", "over-the-counter medication",
+    "exercise program", "stretching exercises", "rehabilitation",
+    "counseling", "cognitive behavioral therapy", "occupational therapy"
+  ],
+  "diagnoses": [
+    "whiplash injury", "whiplash", "cervical strain", "lumbar strain",
+    "sprain", "fracture", "concussion", "mild traumatic brain injury",
+    "soft tissue injury", "contusion", "herniated disc", "bulging disc",
+    "muscle strain", "ligament damage", "tendonitis", "bursitis",
+    "arthritis", "fibromyalgia", "chronic pain syndrome",
+    "post-traumatic stress disorder", "PTSD", "anxiety disorder",
+    "depression", "post-concussion syndrome"
+  ],
+  "prognosis_indicators": [
+    "full recovery", "complete recovery", "expected to recover",
+    "improving", "progressing well", "good prognosis",
+    "no long-term damage", "no lasting damage", "no degeneration",
+    "chronic condition", "ongoing treatment needed", "permanent damage",
+    "partial recovery", "prolonged recovery", "excellent outcome"
+  ],
+  "body_parts": [
+    "neck", "back", "head", "spine", "cervical spine", "lumbar spine",
+    "thoracic spine", "shoulder", "arm", "leg", "knee", "ankle",
+    "wrist", "hand", "foot", "hip", "elbow", "chest", "abdomen",
+    "skull", "brain", "muscles", "ligaments", "tendons", "vertebrae"
+  ],
+  "medical_abbreviations": {
+    "ROM": "range of motion",
+    "PT": "physical therapy",
+    "OTC": "over-the-counter",
+    "PRN": "as needed",
+    "TID": "three times daily",
+    "BID": "twice daily",
+    "MVA": "motor vehicle accident",
+    "TTP": "tenderness to palpation",
+    "WNL": "within normal limits",
+    "NAD": "no acute distress"
+  }
+}

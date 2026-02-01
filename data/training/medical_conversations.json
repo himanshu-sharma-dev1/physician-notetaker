@@ -1,0 +1,1456 @@
+[
+    {
+        "id": "conv_001",
+        "conversation": "Physician: Good morning, Ms. Jones. How are you feeling today?\n\nPatient: Good morning, doctor. I'm doing better, but I still have some discomfort now and then.\n\nPhysician: I understand you were in a car accident last September. Can you walk me through what happened?\n\nPatient: Yes, it was on September 1st, around 12:30 in the afternoon. I was driving from Cheadle Hulme to Manchester when I had to stop in traffic. Out of nowhere, another car hit me from behind, which pushed my car into the one in front.\n\nPhysician: That sounds like a strong impact. Were you wearing your seatbelt?\n\nPatient: Yes, I always do.\n\nPhysician: What did you feel immediately after the accident?\n\nPatient: At first, I was just shocked. But then I realized I had hit my head on the steering wheel, and I could feel pain in my neck and back almost right away.\n\nPhysician: Did you seek medical attention at that time?\n\nPatient: Yes, I went to Moss Bank Accident and Emergency. They checked me over and said it was a whiplash injury, but they didn't do any X-rays. They just gave me some advice and sent me home.\n\nPhysician: How did things progress after that?\n\nPatient: The first four weeks were rough. My neck and back pain were really bad—I had trouble sleeping and had to take painkillers regularly. It started improving after that, but I had to go through ten sessions of physiotherapy to help with the stiffness and discomfort.\n\nPhysician: That makes sense. Are you still experiencing pain now?\n\nPatient: It's not constant, but I do get occasional backaches. It's nothing like before, though.\n\nPhysician: That's good to hear. Have you noticed any other effects, like anxiety while driving or difficulty concentrating?\n\nPatient: No, nothing like that. I don't feel nervous driving, and I haven't had any emotional issues from the accident.\n\nPhysician: Everything looks good. Your neck and back have a full range of movement, and there's no tenderness. I'd expect you to make a full recovery within six months.\n\nPatient: That's a relief! Thank you, doctor.",
+        "entities": {
+            "symptoms": [
+                {
+                    "text": "discomfort",
+                    "start": 85,
+                    "end": 95,
+                    "label": "SYMPTOM"
+                },
+                {
+                    "text": "pain in my neck",
+                    "start": 612,
+                    "end": 627,
+                    "label": "SYMPTOM"
+                },
+                {
+                    "text": "pain in my back",
+                    "start": 632,
+                    "end": 647,
+                    "label": "SYMPTOM"
+                },
+                {
+                    "text": "neck and back pain",
+                    "start": 1050,
+                    "end": 1068,
+                    "label": "SYMPTOM"
+                },
+                {
+                    "text": "trouble sleeping",
+                    "start": 1090,
+                    "end": 1106,
+                    "label": "SYMPTOM"
+                },
+                {
+                    "text": "stiffness",
+                    "start": 1250,
+                    "end": 1259,
+                    "label": "SYMPTOM"
+                },
+                {
+                    "text": "occasional backaches",
+                    "start": 1380,
+                    "end": 1400,
+                    "label": "SYMPTOM"
+                }
+            ],
+            "treatments": [
+                {
+                    "text": "painkillers",
+                    "start": 1120,
+                    "end": 1131,
+                    "label": "TREATMENT"
+                },
+                {
+                    "text": "ten sessions of physiotherapy",
+                    "start": 1200,
+                    "end": 1229,
+                    "label": "TREATMENT"
+                }
+            ],
+            "diagnoses": [
+                {
+                    "text": "whiplash injury",
+                    "start": 780,
+                    "end": 795,
+                    "label": "DIAGNOSIS"
+                }
+            ],
+            "body_parts": [
+                {
+                    "text": "head",
+                    "start": 580,
+                    "end": 584,
+                    "label": "BODY_PART"
+                },
+                {
+                    "text": "neck",
+                    "start": 620,
+                    "end": 624,
+                    "label": "BODY_PART"
+                },
+                {
+                    "text": "back",
+                    "start": 643,
+                    "end": 647,
+                    "label": "BODY_PART"
+                }
+            ]
+        },
+        "summary": {
+            "patient_name": "Ms. Jones",
+            "chief_complaint": "Neck and back pain following car accident",
+            "symptoms": [
+                "Neck pain",
+                "Back pain",
+                "Head impact",
+                "Trouble sleeping",
+                "Stiffness"
+            ],
+            "diagnosis": "Whiplash injury",
+            "treatments": [
+                "Painkillers",
+                "10 physiotherapy sessions"
+            ],
+            "current_status": "Occasional backaches, significantly improved",
+            "prognosis": "Full recovery expected within six months"
+        },
+        "sentiment_labels": [
+            {
+                "text": "I'm doing better, but I still have some discomfort now and then.",
+                "sentiment": "neutral",
+                "intent": "reporting_symptoms"
+            },
+            {
+                "text": "The first four weeks were rough. My neck and back pain were really bad—I had trouble sleeping.",
+                "sentiment": "anxious",
+                "intent": "reporting_symptoms"
+            },
+            {
+                "text": "It's not constant, but I do get occasional backaches. It's nothing like before, though.",
+                "sentiment": "reassured",
+                "intent": "reporting_symptoms"
+            },
+            {
+                "text": "That's a relief! Thank you, doctor.",
+                "sentiment": "reassured",
+                "intent": "expressing_relief"
+            }
+        ],
+        "soap_note": {
+            "subjective": {
+                "chief_complaint": "Neck and back pain following motor vehicle accident",
+                "hpi": "45yo female presents for follow-up after MVA on September 1st. Rear-ended in traffic, struck head on steering wheel. Initial presentation to A&E diagnosed with whiplash. Reports severe pain and sleep disturbance for first 4 weeks, now improved to occasional backaches."
+            },
+            "objective": {
+                "physical_exam": "Full range of motion in cervical and lumbar spine. No tenderness to palpation. Normal muscle tone and strength.",
+                "observations": "Patient appears comfortable, in no acute distress. Normal gait and posture."
+            },
+            "assessment": {
+                "diagnosis": "Whiplash injury (cervical and lumbar strain) - resolving",
+                "severity": "Mild, improving"
+            },
+            "plan": {
+                "treatment": "Continue physiotherapy PRN. OTC analgesics for residual discomfort.",
+                "follow_up": "Return if symptoms worsen or persist beyond 6 months from injury date."
+            }
+        }
+    },
+    {
+        "id": "conv_002",
+        "conversation": "Physician: Good afternoon, Mr. Thompson. What brings you in today?\n\nPatient: Hi doctor. I've been having these terrible headaches for the past two weeks. They're really worrying me.\n\nPhysician: I'm sorry to hear that. Can you describe the headaches for me?\n\nPatient: They start behind my eyes and spread to the back of my head. Sometimes I feel nauseous too. I'm scared it might be something serious.\n\nPhysician: I understand your concern. Have you noticed any triggers for these headaches?\n\nPatient: I think stress might be a factor. I've been working long hours and not sleeping well. But what if it's a brain tumor or something?\n\nPhysician: Let's not jump to conclusions. Based on what you're describing, this sounds like tension headaches, which are very common. Have you tried any medication?\n\nPatient: Just some over-the-counter ibuprofen. It helps a little but I'm still worried.\n\nPhysician: I'd like to do a neurological examination to rule out any concerns.\n\nPhysician: Your neurological exam is completely normal. Your reflexes, coordination, and vision are all fine. This is consistent with tension-type headaches.\n\nPatient: But are you sure? I keep reading online about all these scary conditions...\n\nPhysician: I understand the anxiety, but your symptoms and examination don't suggest anything serious. I recommend reducing screen time, managing stress, and we can try a preventive medication if the headaches persist.\n\nPatient: Okay... I guess that makes me feel a little better. What should I do if they get worse?\n\nPhysician: If you experience sudden severe headaches, vision changes, or weakness, come back immediately. Otherwise, let's schedule a follow-up in two weeks.\n\nPatient: Thank you, doctor. I'll try not to worry so much.",
+        "entities": {
+            "symptoms": [
+                {
+                    "text": "terrible headaches",
+                    "start": 95,
+                    "end": 113,
+                    "label": "SYMPTOM"
+                },
+                {
+                    "text": "nauseous",
+                    "start": 280,
+                    "end": 288,
+                    "label": "SYMPTOM"
+                },
+                {
+                    "text": "not sleeping well",
+                    "start": 480,
+                    "end": 497,
+                    "label": "SYMPTOM"
+                }
+            ],
+            "treatments": [
+                {
+                    "text": "over-the-counter ibuprofen",
+                    "start": 720,
+                    "end": 746,
+                    "label": "TREATMENT"
+                },
+                {
+                    "text": "reducing screen time",
+                    "start": 1150,
+                    "end": 1170,
+                    "label": "TREATMENT"
+                },
+                {
+                    "text": "preventive medication",
+                    "start": 1220,
+                    "end": 1241,
+                    "label": "TREATMENT"
+                }
+            ],
+            "diagnoses": [
+                {
+                    "text": "tension headaches",
+                    "start": 630,
+                    "end": 647,
+                    "label": "DIAGNOSIS"
+                },
+                {
+                    "text": "tension-type headaches",
+                    "start": 1020,
+                    "end": 1042,
+                    "label": "DIAGNOSIS"
+                }
+            ],
+            "body_parts": [
+                {
+                    "text": "eyes",
+                    "start": 220,
+                    "end": 224,
+                    "label": "BODY_PART"
+                },
+                {
+                    "text": "head",
+                    "start": 255,
+                    "end": 259,
+                    "label": "BODY_PART"
+                }
+            ]
+        },
+        "summary": {
+            "patient_name": "Mr. Thompson",
+            "chief_complaint": "Severe headaches for two weeks",
+            "symptoms": [
+                "Headaches behind eyes",
+                "Headaches spreading to back of head",
+                "Nausea",
+                "Poor sleep"
+            ],
+            "diagnosis": "Tension-type headaches",
+            "treatments": [
+                "OTC ibuprofen",
+                "Stress management",
+                "Reduce screen time"
+            ],
+            "current_status": "Ongoing headaches with anxiety about cause",
+            "prognosis": "Expected to improve with lifestyle modifications"
+        },
+        "sentiment_labels": [
+            {
+                "text": "I've been having these terrible headaches for the past two weeks. They're really worrying me.",
+                "sentiment": "anxious",
+                "intent": "reporting_symptoms"
+            },
+            {
+                "text": "I'm scared it might be something serious.",
+                "sentiment": "anxious",
+                "intent": "expressing_concern"
+            },
+            {
+                "text": "But what if it's a brain tumor or something?",
+                "sentiment": "anxious",
+                "intent": "seeking_reassurance"
+            },
+            {
+                "text": "But are you sure? I keep reading online about all these scary conditions...",
+                "sentiment": "anxious",
+                "intent": "seeking_reassurance"
+            },
+            {
+                "text": "Okay... I guess that makes me feel a little better.",
+                "sentiment": "neutral",
+                "intent": "expressing_relief"
+            },
+            {
+                "text": "Thank you, doctor. I'll try not to worry so much.",
+                "sentiment": "reassured",
+                "intent": "expressing_relief"
+            }
+        ],
+        "soap_note": {
+            "subjective": {
+                "chief_complaint": "Headaches for 2 weeks",
+                "hpi": "Adult male presents with 2-week history of headaches. Describes pain starting behind eyes, radiating to occiput. Associated nausea. Reports increased work stress and poor sleep. Tried OTC ibuprofen with minimal relief. Significant health anxiety about serious pathology."
+            },
+            "objective": {
+                "physical_exam": "Neurological exam normal. Reflexes symmetric and brisk. Coordination intact. Visual acuity and fields normal. No papilledema.",
+                "observations": "Patient appears anxious but otherwise well. No focal neurological deficits."
+            },
+            "assessment": {
+                "diagnosis": "Tension-type headaches, likely stress-related",
+                "severity": "Moderate, with significant anxiety component"
+            },
+            "plan": {
+                "treatment": "Lifestyle modifications: reduce screen time, stress management, improve sleep hygiene. Consider prophylactic medication if no improvement.",
+                "follow_up": "Return in 2 weeks for reassessment. Return immediately for sudden severe headache, vision changes, or focal weakness."
+            }
+        }
+    },
+    {
+        "id": "conv_003",
+        "conversation": "Physician: Hello Mrs. Garcia. I've reviewed your test results and would like to discuss them with you.\n\nPatient: Yes, I've been waiting anxiously. What did you find?\n\nPhysician: We found a few things. First, your blood pressure is elevated at 150/95. Second, your blood glucose levels indicate pre-diabetes. And your cholesterol panel shows elevated LDL cholesterol.\n\nPatient: Oh my. That's a lot to take in. I also came in because of my knee pain, remember?\n\nPhysician: Yes, and your X-ray shows mild osteoarthritis in your right knee. So we have multiple conditions to address.\n\nPatient: This is overwhelming. How do we deal with all of this?\n\nPhysician: Let's take it step by step. For the hypertension, I'm prescribing lisinopril 10mg daily. For the pre-diabetes, we'll start with dietary changes - reducing sugar and refined carbs.\n\nPatient: What about the cholesterol and my knee?\n\nPhysician: For cholesterol, I'm adding atorvastatin 20mg at bedtime. For your knee, we'll try physical therapy first - twice weekly for six weeks. I'm also prescribing a topical anti-inflammatory gel.\n\nPatient: That's a lot of medications. Will they interact with each other?\n\nPhysician: Good question. These medications are commonly used together safely. I'll also recommend a low-sodium, Mediterranean-style diet which will help with blood pressure, cholesterol, and blood sugar.\n\nPatient: When do I need to come back?\n\nPhysician: Let's schedule a follow-up in 4 weeks to check your blood pressure and see how you're responding to the medications. We'll repeat blood work in 3 months.\n\nPatient: Thank you for explaining everything, doctor. I feel more confident about managing this now.",
+        "entities": {
+            "symptoms": [
+                {
+                    "text": "knee pain",
+                    "start": 420,
+                    "end": 429,
+                    "label": "SYMPTOM"
+                },
+                {
+                    "text": "elevated blood pressure",
+                    "start": 180,
+                    "end": 203,
+                    "label": "SYMPTOM"
+                }
+            ],
+            "treatments": [
+                {
+                    "text": "lisinopril 10mg daily",
+                    "start": 680,
+                    "end": 701,
+                    "label": "TREATMENT"
+                },
+                {
+                    "text": "dietary changes",
+                    "start": 740,
+                    "end": 755,
+                    "label": "TREATMENT"
+                },
+                {
+                    "text": "atorvastatin 20mg",
+                    "start": 850,
+                    "end": 867,
+                    "label": "TREATMENT"
+                },
+                {
+                    "text": "physical therapy",
+                    "start": 920,
+                    "end": 936,
+                    "label": "TREATMENT"
+                },
+                {
+                    "text": "topical anti-inflammatory gel",
+                    "start": 1000,
+                    "end": 1029,
+                    "label": "TREATMENT"
+                },
+                {
+                    "text": "Mediterranean-style diet",
+                    "start": 1180,
+                    "end": 1204,
+                    "label": "TREATMENT"
+                }
+            ],
+            "diagnoses": [
+                {
+                    "text": "hypertension",
+                    "start": 660,
+                    "end": 672,
+                    "label": "DIAGNOSIS"
+                },
+                {
+                    "text": "pre-diabetes",
+                    "start": 250,
+                    "end": 262,
+                    "label": "DIAGNOSIS"
+                },
+                {
+                    "text": "elevated LDL cholesterol",
+                    "start": 300,
+                    "end": 324,
+                    "label": "DIAGNOSIS"
+                },
+                {
+                    "text": "mild osteoarthritis",
+                    "start": 480,
+                    "end": 499,
+                    "label": "DIAGNOSIS"
+                }
+            ],
+            "body_parts": [
+                {
+                    "text": "knee",
+                    "start": 420,
+                    "end": 424,
+                    "label": "BODY_PART"
+                }
+            ]
+        },
+        "summary": {
+            "patient_name": "Mrs. Garcia",
+            "chief_complaint": "Multiple health concerns including knee pain",
+            "symptoms": [
+                "Knee pain",
+                "Elevated blood pressure 150/95"
+            ],
+            "diagnosis": "Hypertension, Pre-diabetes, Hyperlipidemia, Right knee osteoarthritis",
+            "treatments": [
+                "Lisinopril 10mg daily",
+                "Atorvastatin 20mg nightly",
+                "Physical therapy 2x/week",
+                "Mediterranean diet",
+                "Topical anti-inflammatory"
+            ],
+            "current_status": "Newly diagnosed with multiple conditions",
+            "prognosis": "Good with medication compliance and lifestyle changes"
+        },
+        "sentiment_labels": [
+            {
+                "text": "Yes, I've been waiting anxiously. What did you find?",
+                "sentiment": "anxious",
+                "intent": "seeking_reassurance"
+            },
+            {
+                "text": "Oh my. That's a lot to take in.",
+                "sentiment": "anxious",
+                "intent": "expressing_concern"
+            },
+            {
+                "text": "This is overwhelming. How do we deal with all of this?",
+                "sentiment": "anxious",
+                "intent": "seeking_reassurance"
+            },
+            {
+                "text": "That's a lot of medications. Will they interact with each other?",
+                "sentiment": "anxious",
+                "intent": "asking_questions"
+            },
+            {
+                "text": "Thank you for explaining everything, doctor. I feel more confident about managing this now.",
+                "sentiment": "reassured",
+                "intent": "expressing_relief"
+            }
+        ],
+        "soap_note": {
+            "subjective": {
+                "chief_complaint": "Knee pain and review of test results",
+                "hpi": "Middle-aged female presents for review of recent blood work and X-ray results. Also reports ongoing right knee pain affecting mobility."
+            },
+            "objective": {
+                "physical_exam": "BP: 150/95 mmHg. BMI elevated. Right knee with mild crepitus, no effusion.",
+                "observations": "Labs: Fasting glucose 118 mg/dL (pre-diabetic range), LDL 165 mg/dL. X-ray: Mild degenerative changes right knee."
+            },
+            "assessment": {
+                "diagnosis": "1. Essential hypertension, uncontrolled\n2. Pre-diabetes\n3. Hyperlipidemia\n4. Right knee osteoarthritis, mild",
+                "severity": "Multiple chronic conditions requiring management"
+            },
+            "plan": {
+                "treatment": "1. Start lisinopril 10mg daily for BP\n2. Start atorvastatin 20mg QHS for cholesterol\n3. Physical therapy 2x/week for 6 weeks\n4. Topical diclofenac gel for knee\n5. Mediterranean diet counseling",
+                "follow_up": "4 weeks for BP check, 3 months for repeat labs"
+            }
+        }
+    },
+    {
+        "id": "conv_004",
+        "conversation": "Physician: Good morning, Mr. Davis. I see you're here for your asthma follow-up. How have things been?\n\nPatient: Not great, doctor. I've been having more attacks lately, especially at night. I wake up coughing and can't breathe properly.\n\nPhysician: That's concerning. How often is this happening?\n\nPatient: Almost every night this past week. And I've had to use my rescue inhaler about 4-5 times a day.\n\nPhysician: That's much more frequent than it should be. Have you noticed any triggers?\n\nPatient: I think it might be the new cat my daughter brought home. And the weather has been really cold lately.\n\nPhysician: Both of those could definitely be triggers. Let me listen to your lungs.\n\nPhysician: I can hear some wheezing in both lungs. Your peak flow reading is also lower than your personal best. I think we need to step up your treatment.\n\nPatient: I was afraid you'd say that. What do you recommend?\n\nPhysician: I'm going to add a daily inhaled corticosteroid - fluticasone, two puffs twice daily. This should help prevent the attacks. Continue your albuterol for rescue use, but hopefully you'll need it less.\n\nPatient: Should I get rid of the cat?\n\nPhysician: Ideally yes, but I understand that's difficult. At minimum, keep the cat out of your bedroom, use HEPA air filters, and vacuum frequently. Also, consider allergy testing to confirm.\n\nPatient: Okay, I'll talk to my family about it. When should I come back?\n\nPhysician: Let's see you in 2 weeks to reassess. If you have a severe attack, use your rescue inhaler and call us or go to the ER if it doesn't improve.\n\nPatient: Thank you, doctor. I appreciate the help.",
+        "entities": {
+            "symptoms": [
+                {
+                    "text": "asthma attacks",
+                    "start": 140,
+                    "end": 154,
+                    "label": "SYMPTOM"
+                },
+                {
+                    "text": "coughing",
+                    "start": 200,
+                    "end": 208,
+                    "label": "SYMPTOM"
+                },
+                {
+                    "text": "can't breathe properly",
+                    "start": 213,
+                    "end": 235,
+                    "label": "SYMPTOM"
+                },
+                {
+                    "text": "wheezing",
+                    "start": 720,
+                    "end": 728,
+                    "label": "SYMPTOM"
+                }
+            ],
+            "treatments": [
+                {
+                    "text": "rescue inhaler",
+                    "start": 340,
+                    "end": 354,
+                    "label": "TREATMENT"
+                },
+                {
+                    "text": "fluticasone",
+                    "start": 920,
+                    "end": 931,
+                    "label": "TREATMENT"
+                },
+                {
+                    "text": "albuterol",
+                    "start": 1010,
+                    "end": 1019,
+                    "label": "TREATMENT"
+                },
+                {
+                    "text": "HEPA air filters",
+                    "start": 1200,
+                    "end": 1216,
+                    "label": "TREATMENT"
+                }
+            ],
+            "diagnoses": [
+                {
+                    "text": "asthma",
+                    "start": 70,
+                    "end": 76,
+                    "label": "DIAGNOSIS"
+                },
+                {
+                    "text": "poorly controlled asthma",
+                    "start": 0,
+                    "end": 0,
+                    "label": "DIAGNOSIS"
+                }
+            ],
+            "body_parts": [
+                {
+                    "text": "lungs",
+                    "start": 700,
+                    "end": 705,
+                    "label": "BODY_PART"
+                }
+            ]
+        },
+        "summary": {
+            "patient_name": "Mr. Davis",
+            "chief_complaint": "Worsening asthma symptoms",
+            "symptoms": [
+                "Nocturnal asthma attacks",
+                "Coughing",
+                "Difficulty breathing",
+                "Wheezing"
+            ],
+            "diagnosis": "Poorly controlled asthma, likely with allergic component",
+            "treatments": [
+                "Fluticasone inhaler 2 puffs BID",
+                "Albuterol PRN",
+                "Environmental controls",
+                "HEPA filters"
+            ],
+            "current_status": "Uncontrolled, using rescue inhaler 4-5x daily",
+            "prognosis": "Should improve with controller medication and trigger avoidance"
+        },
+        "sentiment_labels": [
+            {
+                "text": "Not great, doctor. I've been having more attacks lately, especially at night.",
+                "sentiment": "anxious",
+                "intent": "reporting_symptoms"
+            },
+            {
+                "text": "I was afraid you'd say that. What do you recommend?",
+                "sentiment": "anxious",
+                "intent": "seeking_reassurance"
+            },
+            {
+                "text": "Should I get rid of the cat?",
+                "sentiment": "neutral",
+                "intent": "asking_questions"
+            },
+            {
+                "text": "Thank you, doctor. I appreciate the help.",
+                "sentiment": "reassured",
+                "intent": "expressing_relief"
+            }
+        ],
+        "soap_note": {
+            "subjective": {
+                "chief_complaint": "Worsening asthma symptoms",
+                "hpi": "Adult male with known asthma presents with increased symptoms over past week. Reports nightly awakenings with cough and dyspnea. Using rescue inhaler 4-5 times daily, up from previous 1-2 times weekly. Identifies new pet cat and cold weather as possible triggers."
+            },
+            "objective": {
+                "physical_exam": "Bilateral expiratory wheezing on auscultation. Peak flow 65% of personal best.",
+                "observations": "Patient in mild respiratory distress. Speaking in full sentences. No accessory muscle use."
+            },
+            "assessment": {
+                "diagnosis": "Asthma exacerbation, moderate persistent, likely allergic component",
+                "severity": "Moderate - requiring step-up in therapy"
+            },
+            "plan": {
+                "treatment": "1. Add fluticasone 110mcg, 2 puffs BID\n2. Continue albuterol PRN\n3. Environmental controls: remove cat from bedroom, HEPA filters, frequent vacuuming\n4. Consider allergy testing",
+                "follow_up": "2 weeks for reassessment. ER if severe attack unresponsive to rescue inhaler."
+            }
+        }
+    },
+    {
+        "id": "conv_005",
+        "conversation": "Physician: Hello Ms. Chen. You mentioned you've been feeling very tired lately?\n\nPatient: Yes, for about a month now. I just have no energy. I drag myself through the day and still feel exhausted.\n\nPhysician: I'm sorry to hear that. Can you tell me more about what you're experiencing?\n\nPatient: Well, I'm sleeping about 9-10 hours a night but I still wake up tired. I've also noticed I'm always cold, even when others are comfortable. And I've gained about 8 pounds without changing my diet.\n\nPhysician: Those are helpful details. Any other symptoms? Hair changes, skin changes, mood changes?\n\nPatient: Now that you mention it, yes. My hair seems thinner and my skin is really dry. I've also been feeling a bit down, but I thought that was just because I'm so tired.\n\nPhysician: I understand. Based on your symptoms, I'd like to check your thyroid function. These symptoms together are classic signs of hypothyroidism.\n\nPatient: Hypothyroidism? Is that serious?\n\nPhysician: It's very treatable. Let me order some blood tests - a TSH and free T4. We should have results in a couple of days.\n\nPhysician: [Follow-up call] Ms. Chen, your results are in. Your TSH is elevated at 12.5, and your free T4 is low. This confirms hypothyroidism.\n\nPatient: What does that mean for treatment?\n\nPhysician: I'm going to start you on levothyroxine 50 micrograms daily. Take it in the morning on an empty stomach, 30 minutes before eating. Most people feel significantly better within a few weeks.\n\nPatient: That's a relief to have an answer. I was worried something was really wrong with me.\n\nPhysician: You have every right to feel relieved. This is very manageable. We'll recheck your levels in 6 weeks and adjust the dose if needed.",
+        "entities": {
+            "symptoms": [
+                {
+                    "text": "very tired",
+                    "start": 55,
+                    "end": 65,
+                    "label": "SYMPTOM"
+                },
+                {
+                    "text": "no energy",
+                    "start": 110,
+                    "end": 119,
+                    "label": "SYMPTOM"
+                },
+                {
+                    "text": "exhausted",
+                    "start": 170,
+                    "end": 179,
+                    "label": "SYMPTOM"
+                },
+                {
+                    "text": "always cold",
+                    "start": 280,
+                    "end": 291,
+                    "label": "SYMPTOM"
+                },
+                {
+                    "text": "gained about 8 pounds",
+                    "start": 330,
+                    "end": 351,
+                    "label": "SYMPTOM"
+                },
+                {
+                    "text": "hair seems thinner",
+                    "start": 480,
+                    "end": 498,
+                    "label": "SYMPTOM"
+                },
+                {
+                    "text": "skin is really dry",
+                    "start": 503,
+                    "end": 521,
+                    "label": "SYMPTOM"
+                },
+                {
+                    "text": "feeling a bit down",
+                    "start": 540,
+                    "end": 558,
+                    "label": "SYMPTOM"
+                }
+            ],
+            "treatments": [
+                {
+                    "text": "levothyroxine 50 micrograms daily",
+                    "start": 1150,
+                    "end": 1183,
+                    "label": "TREATMENT"
+                }
+            ],
+            "diagnoses": [
+                {
+                    "text": "hypothyroidism",
+                    "start": 750,
+                    "end": 764,
+                    "label": "DIAGNOSIS"
+                }
+            ],
+            "body_parts": [
+                {
+                    "text": "thyroid",
+                    "start": 700,
+                    "end": 707,
+                    "label": "BODY_PART"
+                },
+                {
+                    "text": "hair",
+                    "start": 480,
+                    "end": 484,
+                    "label": "BODY_PART"
+                },
+                {
+                    "text": "skin",
+                    "start": 503,
+                    "end": 507,
+                    "label": "BODY_PART"
+                }
+            ]
+        },
+        "summary": {
+            "patient_name": "Ms. Chen",
+            "chief_complaint": "Persistent fatigue for one month",
+            "symptoms": [
+                "Fatigue despite adequate sleep",
+                "Cold intolerance",
+                "Weight gain",
+                "Hair thinning",
+                "Dry skin",
+                "Low mood"
+            ],
+            "diagnosis": "Hypothyroidism (TSH 12.5, low free T4)",
+            "treatments": [
+                "Levothyroxine 50mcg daily"
+            ],
+            "current_status": "Newly diagnosed, starting treatment",
+            "prognosis": "Excellent - symptoms expected to improve within weeks"
+        },
+        "sentiment_labels": [
+            {
+                "text": "I just have no energy. I drag myself through the day and still feel exhausted.",
+                "sentiment": "anxious",
+                "intent": "reporting_symptoms"
+            },
+            {
+                "text": "Hypothyroidism? Is that serious?",
+                "sentiment": "anxious",
+                "intent": "seeking_reassurance"
+            },
+            {
+                "text": "What does that mean for treatment?",
+                "sentiment": "neutral",
+                "intent": "asking_questions"
+            },
+            {
+                "text": "That's a relief to have an answer. I was worried something was really wrong with me.",
+                "sentiment": "reassured",
+                "intent": "expressing_relief"
+            }
+        ],
+        "soap_note": {
+            "subjective": {
+                "chief_complaint": "Fatigue for 1 month",
+                "hpi": "Adult female presents with 1-month history of persistent fatigue despite sleeping 9-10 hours nightly. Associated cold intolerance, 8-pound weight gain without dietary changes, hair thinning, dry skin, and low mood."
+            },
+            "objective": {
+                "physical_exam": "Skin dry to touch. Hair appears thin. Thyroid palpation normal, no nodules.",
+                "observations": "Labs: TSH 12.5 mIU/L (elevated), Free T4 0.6 ng/dL (low)"
+            },
+            "assessment": {
+                "diagnosis": "Primary hypothyroidism",
+                "severity": "Moderate - symptomatic with classic presentation"
+            },
+            "plan": {
+                "treatment": "Start levothyroxine 50mcg PO daily. Take on empty stomach, 30 min before breakfast.",
+                "follow_up": "Recheck TSH and free T4 in 6 weeks for dose adjustment."
+            }
+        }
+    },
+    {
+        "id": "conv_006",
+        "conversation": "Physician: Good afternoon, Mr. Wilson. I understand you've been having some stomach troubles?\n\nPatient: Yes, doctor. For the past three months, I've had this burning feeling in my chest, especially after eating. Sometimes food comes back up into my throat.\n\nPhysician: That sounds like acid reflux. Is it happening frequently?\n\nPatient: Almost every day now. It's worse at night when I lie down. I've been propping myself up with pillows, which helps a bit.\n\nPhysician: Smart thinking. What kinds of foods seem to trigger it?\n\nPatient: Spicy foods, tomato sauce, coffee, and anything fried. I love my morning coffee, though.\n\nPhysician: I understand, but coffee can worsen reflux significantly. Have you tried any medications?\n\nPatient: Just antacids from the pharmacy. They help for an hour or so but then it comes back.\n\nPhysician: Let me examine your abdomen... No tenderness, which is good. Based on your symptoms, you likely have gastroesophageal reflux disease, or GERD.\n\nPatient: Is that dangerous? Could it be something worse?\n\nPhysician: GERD itself isn't dangerous if managed, but long-term untreated reflux can cause complications. I'm going to prescribe omeprazole 20mg daily before breakfast. This should significantly reduce your symptoms.\n\nPatient: How long will I need to take it?\n\nPhysician: Let's start with 8 weeks. Also, try to avoid eating within 3 hours of bedtime, elevate the head of your bed, and limit those trigger foods. We'll reassess and consider an endoscopy if symptoms persist.\n\nPatient: Thank you, doctor. I hope this helps because it's really affecting my quality of life.",
+        "entities": {
+            "symptoms": [
+                {
+                    "text": "burning feeling in my chest",
+                    "start": 130,
+                    "end": 157,
+                    "label": "SYMPTOM"
+                },
+                {
+                    "text": "food comes back up",
+                    "start": 200,
+                    "end": 218,
+                    "label": "SYMPTOM"
+                },
+                {
+                    "text": "acid reflux",
+                    "start": 260,
+                    "end": 271,
+                    "label": "SYMPTOM"
+                }
+            ],
+            "treatments": [
+                {
+                    "text": "antacids",
+                    "start": 580,
+                    "end": 588,
+                    "label": "TREATMENT"
+                },
+                {
+                    "text": "omeprazole 20mg daily",
+                    "start": 900,
+                    "end": 921,
+                    "label": "TREATMENT"
+                },
+                {
+                    "text": "elevate the head of your bed",
+                    "start": 1100,
+                    "end": 1128,
+                    "label": "TREATMENT"
+                }
+            ],
+            "diagnoses": [
+                {
+                    "text": "gastroesophageal reflux disease",
+                    "start": 750,
+                    "end": 781,
+                    "label": "DIAGNOSIS"
+                },
+                {
+                    "text": "GERD",
+                    "start": 786,
+                    "end": 790,
+                    "label": "DIAGNOSIS"
+                }
+            ],
+            "body_parts": [
+                {
+                    "text": "chest",
+                    "start": 152,
+                    "end": 157,
+                    "label": "BODY_PART"
+                },
+                {
+                    "text": "throat",
+                    "start": 225,
+                    "end": 231,
+                    "label": "BODY_PART"
+                },
+                {
+                    "text": "abdomen",
+                    "start": 680,
+                    "end": 687,
+                    "label": "BODY_PART"
+                }
+            ]
+        },
+        "summary": {
+            "patient_name": "Mr. Wilson",
+            "chief_complaint": "Heartburn and regurgitation for 3 months",
+            "symptoms": [
+                "Burning chest pain after eating",
+                "Food regurgitation",
+                "Nocturnal symptoms"
+            ],
+            "diagnosis": "Gastroesophageal reflux disease (GERD)",
+            "treatments": [
+                "Omeprazole 20mg daily",
+                "Dietary modifications",
+                "Lifestyle changes"
+            ],
+            "current_status": "Daily symptoms affecting quality of life",
+            "prognosis": "Good with medication and lifestyle modifications"
+        },
+        "sentiment_labels": [
+            {
+                "text": "For the past three months, I've had this burning feeling in my chest, especially after eating.",
+                "sentiment": "neutral",
+                "intent": "reporting_symptoms"
+            },
+            {
+                "text": "Is that dangerous? Could it be something worse?",
+                "sentiment": "anxious",
+                "intent": "seeking_reassurance"
+            },
+            {
+                "text": "How long will I need to take it?",
+                "sentiment": "neutral",
+                "intent": "asking_questions"
+            },
+            {
+                "text": "Thank you, doctor. I hope this helps because it's really affecting my quality of life.",
+                "sentiment": "neutral",
+                "intent": "expressing_relief"
+            }
+        ],
+        "soap_note": {
+            "subjective": {
+                "chief_complaint": "Heartburn for 3 months",
+                "hpi": "Adult male with 3-month history of burning chest discomfort, worse postprandially and when supine. Associated regurgitation of food into throat. Symptoms daily. Triggers include spicy foods, tomato products, coffee, fried foods. Using pillows for elevation with partial relief. OTC antacids provide temporary relief only."
+            },
+            "objective": {
+                "physical_exam": "Abdomen soft, non-tender, non-distended. No hepatosplenomegaly. Normal bowel sounds.",
+                "observations": "Patient well-appearing, describes symptoms clearly without acute distress."
+            },
+            "assessment": {
+                "diagnosis": "Gastroesophageal reflux disease (GERD)",
+                "severity": "Moderate - daily symptoms affecting quality of life"
+            },
+            "plan": {
+                "treatment": "1. Omeprazole 20mg PO daily before breakfast x 8 weeks\n2. Avoid eating within 3 hours of bedtime\n3. Elevate head of bed\n4. Limit trigger foods (coffee, spicy, fried, tomato)",
+                "follow_up": "Reassess in 8 weeks. Consider EGD if symptoms persist despite treatment."
+            }
+        }
+    },
+    {
+        "id": "conv_007",
+        "conversation": "Physician: Hello Mrs. Patel. Your referral says you've been experiencing joint pain?\n\nPatient: Yes, doctor. It's been going on for about six months now. My hands and wrists hurt a lot, especially in the morning.\n\nPhysician: How long does the morning stiffness last?\n\nPatient: Usually about an hour or more. My fingers feel so stiff I can barely make a fist when I first wake up.\n\nPhysician: Are both hands affected equally?\n\nPatient: Yes, it's symmetric. Both hands, both wrists. Sometimes my knees too.\n\nPhysician: Have you noticed any swelling in the joints?\n\nPatient: Yes, my knuckles sometimes look puffy, and my wedding ring doesn't fit anymore.\n\nPhysician: Let me examine your hands... I can see some swelling in the MCP and PIP joints bilaterally. There's warmth too. Your wrists show decreased range of motion.\n\nPatient: What do you think it is, doctor?\n\nPhysician: Based on your symmetric joint involvement, prolonged morning stiffness, and the pattern of affected joints, I'm concerned this could be rheumatoid arthritis. I'd like to order some blood tests to confirm.\n\nPatient: Rheumatoid arthritis? That sounds serious. My aunt has that and she can barely use her hands now.\n\nPhysician: I understand your concern, but treatment has improved tremendously. Early intervention can prevent the damage your aunt may have experienced. I'm ordering RF, anti-CCP antibodies, ESR, and CRP tests.\n\nPatient: What happens if it is RA?\n\nPhysician: We'd start disease-modifying medications early to prevent joint damage. The sooner we treat, the better the outcomes. I'll also refer you to a rheumatologist for specialized care.\n\nPatient: Okay, I'll do whatever it takes. I want to catch this early.",
+        "entities": {
+            "symptoms": [
+                {
+                    "text": "joint pain",
+                    "start": 65,
+                    "end": 75,
+                    "label": "SYMPTOM"
+                },
+                {
+                    "text": "hands and wrists hurt",
+                    "start": 140,
+                    "end": 161,
+                    "label": "SYMPTOM"
+                },
+                {
+                    "text": "morning stiffness",
+                    "start": 210,
+                    "end": 227,
+                    "label": "SYMPTOM"
+                },
+                {
+                    "text": "fingers feel so stiff",
+                    "start": 280,
+                    "end": 301,
+                    "label": "SYMPTOM"
+                },
+                {
+                    "text": "swelling",
+                    "start": 450,
+                    "end": 458,
+                    "label": "SYMPTOM"
+                },
+                {
+                    "text": "knuckles sometimes look puffy",
+                    "start": 490,
+                    "end": 519,
+                    "label": "SYMPTOM"
+                }
+            ],
+            "treatments": [
+                {
+                    "text": "disease-modifying medications",
+                    "start": 1200,
+                    "end": 1229,
+                    "label": "TREATMENT"
+                }
+            ],
+            "diagnoses": [
+                {
+                    "text": "rheumatoid arthritis",
+                    "start": 850,
+                    "end": 870,
+                    "label": "DIAGNOSIS"
+                }
+            ],
+            "body_parts": [
+                {
+                    "text": "hands",
+                    "start": 140,
+                    "end": 145,
+                    "label": "BODY_PART"
+                },
+                {
+                    "text": "wrists",
+                    "start": 150,
+                    "end": 156,
+                    "label": "BODY_PART"
+                },
+                {
+                    "text": "fingers",
+                    "start": 280,
+                    "end": 287,
+                    "label": "BODY_PART"
+                },
+                {
+                    "text": "knees",
+                    "start": 410,
+                    "end": 415,
+                    "label": "BODY_PART"
+                },
+                {
+                    "text": "knuckles",
+                    "start": 490,
+                    "end": 498,
+                    "label": "BODY_PART"
+                },
+                {
+                    "text": "MCP joints",
+                    "start": 620,
+                    "end": 630,
+                    "label": "BODY_PART"
+                },
+                {
+                    "text": "PIP joints",
+                    "start": 635,
+                    "end": 645,
+                    "label": "BODY_PART"
+                }
+            ]
+        },
+        "summary": {
+            "patient_name": "Mrs. Patel",
+            "chief_complaint": "Joint pain in hands and wrists for 6 months",
+            "symptoms": [
+                "Bilateral hand and wrist pain",
+                "Morning stiffness >1 hour",
+                "Joint swelling",
+                "Decreased range of motion"
+            ],
+            "diagnosis": "Suspected rheumatoid arthritis (pending confirmation)",
+            "treatments": [
+                "Pending: Disease-modifying antirheumatic drugs",
+                "Rheumatology referral"
+            ],
+            "current_status": "Active symptoms with joint inflammation",
+            "prognosis": "Good if early treatment initiated"
+        },
+        "sentiment_labels": [
+            {
+                "text": "My hands and wrists hurt a lot, especially in the morning.",
+                "sentiment": "neutral",
+                "intent": "reporting_symptoms"
+            },
+            {
+                "text": "What do you think it is, doctor?",
+                "sentiment": "anxious",
+                "intent": "seeking_reassurance"
+            },
+            {
+                "text": "Rheumatoid arthritis? That sounds serious. My aunt has that and she can barely use her hands now.",
+                "sentiment": "anxious",
+                "intent": "expressing_concern"
+            },
+            {
+                "text": "What happens if it is RA?",
+                "sentiment": "anxious",
+                "intent": "asking_questions"
+            },
+            {
+                "text": "Okay, I'll do whatever it takes. I want to catch this early.",
+                "sentiment": "neutral",
+                "intent": "confirming_understanding"
+            }
+        ],
+        "soap_note": {
+            "subjective": {
+                "chief_complaint": "Bilateral hand and wrist pain for 6 months",
+                "hpi": "Middle-aged female presents with 6-month history of symmetric joint pain affecting hands, wrists, and occasionally knees. Reports morning stiffness lasting >1 hour daily. Notes joint swelling, particularly in knuckles. Family history of RA (aunt)."
+            },
+            "objective": {
+                "physical_exam": "Bilateral swelling of MCP and PIP joints with warmth. Decreased ROM in wrists bilaterally. No deformities noted.",
+                "observations": "Difficulty making complete fist. Wedding ring tighter suggesting finger edema."
+            },
+            "assessment": {
+                "diagnosis": "Suspected rheumatoid arthritis, pending serological confirmation",
+                "severity": "Moderate - symmetric polyarthritis with morning stiffness >1 hour"
+            },
+            "plan": {
+                "treatment": "Labs: RF, anti-CCP antibodies, ESR, CRP. Refer to rheumatology for evaluation and initiation of DMARDs if confirmed.",
+                "follow_up": "Return for results in 1 week. Rheumatology appointment to be scheduled."
+            }
+        }
+    },
+    {
+        "id": "conv_008",
+        "conversation": "Physician: Good morning, Jason. Your mom tells me you've been having tummy troubles?\n\nPatient (child): Yeah, my tummy hurts a lot. And I've been pooping a lot.\n\nParent: He's been having diarrhea for about a week now. And he throws up sometimes too. He hasn't been eating much.\n\nPhysician: I see. Jason, can you show me where it hurts?\n\nPatient: It's all over here. *points to abdomen*\n\nPhysician: Has he had a fever?\n\nParent: Yes, it was 101°F yesterday. Today it seems lower. He's also been very tired and just wants to lie down.\n\nPhysician: Has anyone else in the family been sick?\n\nParent: Actually, yes. His sister had similar symptoms last week, but she got better after a few days.\n\nPhysician: That's helpful information. Let me examine him... His abdomen is soft, with some diffuse tenderness. No signs of dehydration currently, which is good.\n\nPatient: Am I going to get a shot?\n\nPhysician: No shots today, buddy! This looks like a viral gastroenteritis - a stomach bug. It's contagious and going around.\n\nParent: What should we do? I'm worried about him getting dehydrated.\n\nPhysician: Good concern. Push clear fluids - small sips frequently. Pedialyte is great. Bland foods when he's ready - crackers, toast, bananas. Avoid dairy for a few days.\n\nParent: Should I give him any medication?\n\nPhysician: You can use acetaminophen for fever. Avoid anti-diarrheal medications in children. If he can't keep fluids down, becomes very lethargic, or has bloody stool, bring him back immediately.\n\nPatient: When can I go back to school?\n\nPhysician: Stay home until you've had no fever and no vomiting for 24 hours. Probably a few more days.\n\nParent: Thank you, doctor. We were really worried.",
+        "entities": {
+            "symptoms": [
+                {
+                    "text": "tummy hurts",
+                    "start": 90,
+                    "end": 101,
+                    "label": "SYMPTOM"
+                },
+                {
+                    "text": "diarrhea",
+                    "start": 170,
+                    "end": 178,
+                    "label": "SYMPTOM"
+                },
+                {
+                    "text": "throws up",
+                    "start": 220,
+                    "end": 229,
+                    "label": "SYMPTOM"
+                },
+                {
+                    "text": "fever",
+                    "start": 350,
+                    "end": 355,
+                    "label": "SYMPTOM"
+                },
+                {
+                    "text": "very tired",
+                    "start": 430,
+                    "end": 440,
+                    "label": "SYMPTOM"
+                }
+            ],
+            "treatments": [
+                {
+                    "text": "clear fluids",
+                    "start": 920,
+                    "end": 932,
+                    "label": "TREATMENT"
+                },
+                {
+                    "text": "Pedialyte",
+                    "start": 965,
+                    "end": 974,
+                    "label": "TREATMENT"
+                },
+                {
+                    "text": "acetaminophen",
+                    "start": 1100,
+                    "end": 1113,
+                    "label": "TREATMENT"
+                }
+            ],
+            "diagnoses": [
+                {
+                    "text": "viral gastroenteritis",
+                    "start": 800,
+                    "end": 821,
+                    "label": "DIAGNOSIS"
+                }
+            ],
+            "body_parts": [
+                {
+                    "text": "tummy",
+                    "start": 90,
+                    "end": 95,
+                    "label": "BODY_PART"
+                },
+                {
+                    "text": "abdomen",
+                    "start": 700,
+                    "end": 707,
+                    "label": "BODY_PART"
+                }
+            ]
+        },
+        "summary": {
+            "patient_name": "Jason",
+            "chief_complaint": "Abdominal pain with diarrhea and vomiting for 1 week",
+            "symptoms": [
+                "Abdominal pain",
+                "Diarrhea",
+                "Vomiting",
+                "Fever 101°F",
+                "Fatigue",
+                "Decreased appetite"
+            ],
+            "diagnosis": "Viral gastroenteritis",
+            "treatments": [
+                "Clear fluids/Pedialyte",
+                "Bland diet",
+                "Acetaminophen for fever",
+                "Rest"
+            ],
+            "current_status": "Acute illness, no dehydration currently",
+            "prognosis": "Expected resolution within a few days"
+        },
+        "sentiment_labels": [
+            {
+                "text": "Yeah, my tummy hurts a lot. And I've been pooping a lot.",
+                "sentiment": "neutral",
+                "intent": "reporting_symptoms"
+            },
+            {
+                "text": "Am I going to get a shot?",
+                "sentiment": "anxious",
+                "intent": "asking_questions"
+            },
+            {
+                "text": "I'm worried about him getting dehydrated.",
+                "sentiment": "anxious",
+                "intent": "expressing_concern"
+            },
+            {
+                "text": "When can I go back to school?",
+                "sentiment": "neutral",
+                "intent": "asking_questions"
+            },
+            {
+                "text": "Thank you, doctor. We were really worried.",
+                "sentiment": "reassured",
+                "intent": "expressing_relief"
+            }
+        ],
+        "soap_note": {
+            "subjective": {
+                "chief_complaint": "Abdominal pain, diarrhea, vomiting x 1 week",
+                "hpi": "7yo male presents with 1 week of diffuse abdominal pain, frequent loose stools, occasional vomiting, and decreased appetite. Fever to 101°F yesterday, lower today. Sister had similar symptoms last week, now resolved. Fatigue and decreased activity level."
+            },
+            "objective": {
+                "physical_exam": "Temp 99.2°F. Abdomen soft with diffuse mild tenderness, no rebound or guarding. No hepatosplenomegaly. Mucous membranes moist. Skin turgor normal.",
+                "observations": "Child appears tired but alert. No signs of dehydration. Normal capillary refill."
+            },
+            "assessment": {
+                "diagnosis": "Viral gastroenteritis, likely contagious source from sibling",
+                "severity": "Mild-moderate, at risk for dehydration"
+            },
+            "plan": {
+                "treatment": "1. Oral rehydration with Pedialyte, small frequent sips\n2. Bland diet as tolerated (BRAT)\n3. Acetaminophen PRN for fever\n4. Avoid anti-diarrheals",
+                "follow_up": "Return for: inability to keep fluids down, bloody stool, severe lethargy, signs of dehydration. May return to school 24 hours after fever and vomiting resolve."
+            }
+        }
+    },
+    {
+        "id": "conv_009",
+        "conversation": "Physician: Mrs. Anderson, thank you for coming in. I wanted to discuss your recent mammogram results in person.\n\nPatient: Oh no, is something wrong? I've been worrying since I got the call.\n\nPhysician: Your mammogram showed an area that needs further investigation. There's a small mass in your left breast that wasn't there on your previous scan.\n\nPatient: A mass? Does that mean I have cancer?\n\nPhysician: Not necessarily. Many breast masses are benign - cysts, fibroadenomas, or other non-cancerous growths. But we need to investigate further to know for certain.\n\nPatient: What do we do now? I'm really scared.\n\nPhysician: I completely understand your fear. First, we'll do a diagnostic mammogram with additional views, and likely an ultrasound to characterize the mass. Based on those results, we may recommend a biopsy.\n\nPatient: A biopsy? That sounds painful.\n\nPhysician: It's a minimally invasive procedure, usually done with local anesthesia. You might feel some pressure, but it shouldn't be very painful. It's the only way to definitively determine what the mass is.\n\nPatient: How long until we know?\n\nPhysician: The imaging can be scheduled this week. If we need a biopsy, results typically take about a week. I know the waiting is hard, but I want to be thorough.\n\nPatient: What are the chances it's cancer?\n\nPhysician: Given the characteristics on mammogram and that you have no family history, the likelihood of cancer is lower than you might fear - probably around 20-30%. But I don't want to give false reassurance either. We won't know until we complete the workup.\n\nPatient: Okay. I'll try to stay positive. Thank you for being honest with me.\n\nPhysician: That's the right approach. We're going to take this one step at a time. My coordinator will call you today to schedule everything.",
+        "entities": {
+            "symptoms": [
+                {
+                    "text": "mass in your left breast",
+                    "start": 280,
+                    "end": 304,
+                    "label": "SYMPTOM"
+                }
+            ],
+            "treatments": [
+                {
+                    "text": "diagnostic mammogram",
+                    "start": 550,
+                    "end": 570,
+                    "label": "TREATMENT"
+                },
+                {
+                    "text": "ultrasound",
+                    "start": 610,
+                    "end": 620,
+                    "label": "TREATMENT"
+                },
+                {
+                    "text": "biopsy",
+                    "start": 680,
+                    "end": 686,
+                    "label": "TREATMENT"
+                }
+            ],
+            "diagnoses": [
+                {
+                    "text": "breast mass",
+                    "start": 0,
+                    "end": 0,
+                    "label": "DIAGNOSIS"
+                }
+            ],
+            "body_parts": [
+                {
+                    "text": "left breast",
+                    "start": 293,
+                    "end": 304,
+                    "label": "BODY_PART"
+                }
+            ]
+        },
+        "summary": {
+            "patient_name": "Mrs. Anderson",
+            "chief_complaint": "Abnormal mammogram finding",
+            "symptoms": [
+                "New breast mass on imaging"
+            ],
+            "diagnosis": "Left breast mass, etiology pending workup",
+            "treatments": [
+                "Diagnostic mammogram with additional views",
+                "Breast ultrasound",
+                "Possible biopsy"
+            ],
+            "current_status": "Awaiting diagnostic workup",
+            "prognosis": "Pending - 20-30% probability of malignancy per physician estimate"
+        },
+        "sentiment_labels": [
+            {
+                "text": "Oh no, is something wrong? I've been worrying since I got the call.",
+                "sentiment": "anxious",
+                "intent": "expressing_concern"
+            },
+            {
+                "text": "A mass? Does that mean I have cancer?",
+                "sentiment": "anxious",
+                "intent": "seeking_reassurance"
+            },
+            {
+                "text": "What do we do now? I'm really scared.",
+                "sentiment": "anxious",
+                "intent": "expressing_concern"
+            },
+            {
+                "text": "A biopsy? That sounds painful.",
+                "sentiment": "anxious",
+                "intent": "expressing_concern"
+            },
+            {
+                "text": "What are the chances it's cancer?",
+                "sentiment": "anxious",
+                "intent": "asking_questions"
+            },
+            {
+                "text": "Okay. I'll try to stay positive. Thank you for being honest with me.",
+                "sentiment": "neutral",
+                "intent": "confirming_understanding"
+            }
+        ],
+        "soap_note": {
+            "subjective": {
+                "chief_complaint": "Discussion of abnormal mammogram results",
+                "hpi": "Adult female called in to discuss screening mammogram results showing new left breast mass not present on prior imaging. Patient quite anxious. No breast symptoms reported. No family history of breast cancer."
+            },
+            "objective": {
+                "physical_exam": "Not performed this visit (imaging review)",
+                "observations": "Mammogram: New 1.2cm mass, left breast, upper outer quadrant. BI-RADS 4."
+            },
+            "assessment": {
+                "diagnosis": "Left breast mass, newly identified, requires workup",
+                "severity": "BI-RADS 4 - suspicious, 20-30% estimated malignancy risk"
+            },
+            "plan": {
+                "treatment": "1. Diagnostic mammogram with spot compression and magnification views\n2. Breast ultrasound\n3. Likely core needle biopsy pending imaging results",
+                "follow_up": "Imaging this week. Results discussion scheduled. Will coordinate biopsy if indicated."
+            }
+        }
+    },
+    {
+        "id": "conv_010",
+        "conversation": "Physician: Mr. Kowalski, I see you're here about dizziness. Tell me what you've been experiencing.\n\nPatient: Doctor, it's been terrifying. The room just starts spinning out of nowhere. I feel like I'm going to fall over.\n\nPhysician: How long do these episodes last?\n\nPatient: Usually less than a minute, but they're intense. It's worse when I turn my head or lie down in bed.\n\nPhysician: Any nausea or vomiting with it?\n\nPatient: Yes, I feel nauseous during the episodes. Yesterday I actually threw up.\n\nPhysician: Have you had any recent ear infections, colds, or head injuries?\n\nPatient: I had a cold about two weeks ago, but that's it.\n\nPhysician: Any hearing changes or ringing in your ears?\n\nPatient: Now that you mention it, there is some ringing in my right ear. I thought it was just from aging.\n\nPhysician: Let me do some tests... I'm going to have you lie back and turn your head. Tell me if you feel dizzy.\n\nPatient: Oh! Yes, that's it! The spinning started when you turned my head to the right.\n\nPhysician: I could see your eyes moving too - that's called nystagmus. Based on your symptoms and the Dix-Hallpike test, you have benign paroxysmal positional vertigo, or BPPV.\n\nPatient: Is that serious? The word vertigo sounds scary.\n\nPhysician: It sounds worse than it is. It's caused by tiny crystals in your inner ear that get displaced. The good news is we can often fix it right now with a repositioning maneuver called the Epley maneuver.\n\nPatient: You can fix it now? That would be amazing.\n\nPhysician: Let me perform the maneuver... There. How do you feel?\n\nPatient: The spinning... it's gone! I can't believe it.\n\nPhysician: The relief is often immediate. Avoid lying flat for 24 hours and don't turn to your right side when sleeping for a week. If symptoms return, we may need to repeat the maneuver.",
+        "entities": {
+            "symptoms": [
+                {
+                    "text": "dizziness",
+                    "start": 50,
+                    "end": 59,
+                    "label": "SYMPTOM"
+                },
+                {
+                    "text": "room just starts spinning",
+                    "start": 110,
+                    "end": 135,
+                    "label": "SYMPTOM"
+                },
+                {
+                    "text": "nauseous",
+                    "start": 320,
+                    "end": 328,
+                    "label": "SYMPTOM"
+                },
+                {
+                    "text": "threw up",
+                    "start": 380,
+                    "end": 388,
+                    "label": "SYMPTOM"
+                },
+                {
+                    "text": "ringing in my right ear",
+                    "start": 540,
+                    "end": 563,
+                    "label": "SYMPTOM"
+                },
+                {
+                    "text": "nystagmus",
+                    "start": 800,
+                    "end": 809,
+                    "label": "SYMPTOM"
+                }
+            ],
+            "treatments": [
+                {
+                    "text": "Epley maneuver",
+                    "start": 1100,
+                    "end": 1114,
+                    "label": "TREATMENT"
+                },
+                {
+                    "text": "repositioning maneuver",
+                    "start": 1070,
+                    "end": 1092,
+                    "label": "TREATMENT"
+                }
+            ],
+            "diagnoses": [
+                {
+                    "text": "benign paroxysmal positional vertigo",
+                    "start": 860,
+                    "end": 896,
+                    "label": "DIAGNOSIS"
+                },
+                {
+                    "text": "BPPV",
+                    "start": 901,
+                    "end": 905,
+                    "label": "DIAGNOSIS"
+                }
+            ],
+            "body_parts": [
+                {
+                    "text": "head",
+                    "start": 260,
+                    "end": 264,
+                    "label": "BODY_PART"
+                },
+                {
+                    "text": "right ear",
+                    "start": 554,
+                    "end": 563,
+                    "label": "BODY_PART"
+                },
+                {
+                    "text": "inner ear",
+                    "start": 1030,
+                    "end": 1039,
+                    "label": "BODY_PART"
+                }
+            ]
+        },
+        "summary": {
+            "patient_name": "Mr. Kowalski",
+            "chief_complaint": "Episodes of severe spinning dizziness",
+            "symptoms": [
+                "Vertigo episodes <1 minute",
+                "Position-triggered symptoms",
+                "Nausea and vomiting",
+                "Right ear tinnitus"
+            ],
+            "diagnosis": "Benign paroxysmal positional vertigo (BPPV)",
+            "treatments": [
+                "Epley maneuver (performed in office)",
+                "Positional restrictions"
+            ],
+            "current_status": "Symptoms resolved after treatment",
+            "prognosis": "Excellent - may need repeat maneuver if recurs"
+        },
+        "sentiment_labels": [
+            {
+                "text": "Doctor, it's been terrifying. The room just starts spinning out of nowhere.",
+                "sentiment": "anxious",
+                "intent": "reporting_symptoms"
+            },
+            {
+                "text": "Oh! Yes, that's it! The spinning started when you turned my head to the right.",
+                "sentiment": "neutral",
+                "intent": "confirming_understanding"
+            },
+            {
+                "text": "Is that serious? The word vertigo sounds scary.",
+                "sentiment": "anxious",
+                "intent": "seeking_reassurance"
+            },
+            {
+                "text": "You can fix it now? That would be amazing.",
+                "sentiment": "neutral",
+                "intent": "expressing_relief"
+            },
+            {
+                "text": "The spinning... it's gone! I can't believe it.",
+                "sentiment": "reassured",
+                "intent": "expressing_relief"
+            }
+        ],
+        "soap_note": {
+            "subjective": {
+                "chief_complaint": "Episodic vertigo",
+                "hpi": "Adult male with episodes of intense spinning vertigo lasting <1 minute, triggered by head movement and lying down. Associated nausea with one episode of emesis. Right ear tinnitus. Recent URI 2 weeks ago. No hearing loss reported."
+            },
+            "objective": {
+                "physical_exam": "Positive Dix-Hallpike test with rightward head turn - produces vertigo and torsional nystagmus. Left Dix-Hallpike negative. Otoscopy normal bilaterally.",
+                "observations": "Romberg positive when eyes closed. Gait steady with eyes open."
+            },
+            "assessment": {
+                "diagnosis": "Benign paroxysmal positional vertigo (BPPV), right posterior canal",
+                "severity": "Moderate - impacting daily activities"
+            },
+            "plan": {
+                "treatment": "Epley maneuver performed in office with immediate resolution of symptoms. Post-treatment instructions: sleep semi-reclined for 24 hours, avoid right-side lying for 1 week.",
+                "follow_up": "Return if symptoms recur - may need repeat maneuver. Consider vestibular therapy if refractory."
+            }
+        }
+    }
+]

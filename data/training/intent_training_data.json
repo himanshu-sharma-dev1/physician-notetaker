@@ -1,0 +1,246 @@
+[
+    {
+        "text": "I'm doing better, but I still have some discomfort now and then.",
+        "label": "reporting_symptoms"
+    },
+    {
+        "text": "I've been having these terrible headaches for the past two weeks.",
+        "label": "reporting_symptoms"
+    },
+    {
+        "text": "I'm scared it might be something serious.",
+        "label": "expressing_concern"
+    },
+    {
+        "text": "But what if it's a brain tumor or something?",
+        "label": "seeking_reassurance"
+    },
+    {
+        "text": "That's a relief! Thank you, doctor.",
+        "label": "expressing_relief"
+    },
+    {
+        "text": "Thank you, doctor. I'll try not to worry so much.",
+        "label": "expressing_relief"
+    },
+    {
+        "text": "What did the tests show?",
+        "label": "asking_questions"
+    },
+    {
+        "text": "How long will the recovery take?",
+        "label": "asking_questions"
+    },
+    {
+        "text": "I understand. Thank you for explaining that.",
+        "label": "confirming_understanding"
+    },
+    {
+        "text": "So I should take this medication twice a day?",
+        "label": "confirming_understanding"
+    },
+    {
+        "text": "That's a lot of medications. Will they interact with each other?",
+        "label": "asking_questions"
+    },
+    {
+        "text": "Not great, doctor. I've been having more attacks lately.",
+        "label": "reporting_symptoms"
+    },
+    {
+        "text": "I was afraid you'd say that.",
+        "label": "expressing_concern"
+    },
+    {
+        "text": "What do you recommend?",
+        "label": "seeking_reassurance"
+    },
+    {
+        "text": "Thank you, doctor. I appreciate the help.",
+        "label": "expressing_relief"
+    },
+    {
+        "text": "Hypothyroidism? Is that serious?",
+        "label": "seeking_reassurance"
+    },
+    {
+        "text": "What does that mean for treatment?",
+        "label": "asking_questions"
+    },
+    {
+        "text": "I was worried something was really wrong with me.",
+        "label": "expressing_concern"
+    },
+    {
+        "text": "Is that dangerous? Could it be something worse?",
+        "label": "seeking_reassurance"
+    },
+    {
+        "text": "How long will I need to take it?",
+        "label": "asking_questions"
+    },
+    {
+        "text": "What do you think it is, doctor?",
+        "label": "seeking_reassurance"
+    },
+    {
+        "text": "Rheumatoid arthritis? That sounds serious.",
+        "label": "expressing_concern"
+    },
+    {
+        "text": "Okay, I'll do whatever it takes. I want to catch this early.",
+        "label": "confirming_understanding"
+    },
+    {
+        "text": "Am I going to get a shot?",
+        "label": "asking_questions"
+    },
+    {
+        "text": "I'm worried about him getting dehydrated.",
+        "label": "expressing_concern"
+    },
+    {
+        "text": "When can I go back to school?",
+        "label": "asking_questions"
+    },
+    {
+        "text": "Oh no, is something wrong?",
+        "label": "expressing_concern"
+    },
+    {
+        "text": "A mass? Does that mean I have cancer?",
+        "label": "seeking_reassurance"
+    },
+    {
+        "text": "What do we do now?",
+        "label": "asking_questions"
+    },
+    {
+        "text": "What are the chances it's cancer?",
+        "label": "asking_questions"
+    },
+    {
+        "text": "I'll try to stay positive.",
+        "label": "expressing_relief"
+    },
+    {
+        "text": "Is that serious? The word vertigo sounds scary.",
+        "label": "seeking_reassurance"
+    },
+    {
+        "text": "You can fix it now? That would be amazing.",
+        "label": "expressing_relief"
+    },
+    {
+        "text": "The spinning... it's gone! I can't believe it.",
+        "label": "expressing_relief"
+    },
+    {
+        "text": "My neck has been hurting for three days now.",
+        "label": "reporting_symptoms"
+    },
+    {
+        "text": "I noticed blood in my stool yesterday.",
+        "label": "reporting_symptoms"
+    },
+    {
+        "text": "The pain gets worse at night.",
+        "label": "reporting_symptoms"
+    },
+    {
+        "text": "I've been taking the medication as prescribed, but it doesn't seem to be helping.",
+        "label": "reporting_symptoms"
+    },
+    {
+        "text": "Could this be related to my diabetes?",
+        "label": "asking_questions"
+    },
+    {
+        "text": "What are the side effects of this medication?",
+        "label": "asking_questions"
+    },
+    {
+        "text": "Can I still exercise with this condition?",
+        "label": "asking_questions"
+    },
+    {
+        "text": "Should I avoid any particular foods?",
+        "label": "asking_questions"
+    },
+    {
+        "text": "When should I be worried enough to go to the ER?",
+        "label": "asking_questions"
+    },
+    {
+        "text": "Will this affect my ability to have children?",
+        "label": "asking_questions"
+    },
+    {
+        "text": "I'm terrified this might be something permanent.",
+        "label": "expressing_concern"
+    },
+    {
+        "text": "My mother had the same thing and she died from it.",
+        "label": "expressing_concern"
+    },
+    {
+        "text": "I can't stop worrying about what this might mean.",
+        "label": "expressing_concern"
+    },
+    {
+        "text": "This has been keeping me up at night with anxiety.",
+        "label": "expressing_concern"
+    },
+    {
+        "text": "Please tell me it's not cancer.",
+        "label": "seeking_reassurance"
+    },
+    {
+        "text": "Will I be okay, doctor?",
+        "label": "seeking_reassurance"
+    },
+    {
+        "text": "Is there any chance this could be serious?",
+        "label": "seeking_reassurance"
+    },
+    {
+        "text": "Are you sure I don't need more tests?",
+        "label": "seeking_reassurance"
+    },
+    {
+        "text": "I really need you to tell me everything is going to be fine.",
+        "label": "seeking_reassurance"
+    },
+    {
+        "text": "That's wonderful news! I'm so happy.",
+        "label": "expressing_relief"
+    },
+    {
+        "text": "I feel so much better knowing what it is.",
+        "label": "expressing_relief"
+    },
+    {
+        "text": "Thank goodness it's nothing serious.",
+        "label": "expressing_relief"
+    },
+    {
+        "text": "I can finally stop worrying.",
+        "label": "expressing_relief"
+    },
+    {
+        "text": "Okay, so I take one pill in the morning and one at night.",
+        "label": "confirming_understanding"
+    },
+    {
+        "text": "Got it, avoid dairy and stay hydrated.",
+        "label": "confirming_understanding"
+    },
+    {
+        "text": "So the surgery is scheduled for next Tuesday at 8 AM.",
+        "label": "confirming_understanding"
+    },
+    {
+        "text": "I understand I need to fast for 12 hours before the procedure.",
+        "label": "confirming_understanding"
+    }
+]

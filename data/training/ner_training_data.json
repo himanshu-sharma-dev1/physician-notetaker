@@ -1,0 +1,787 @@
+[
+    [
+        "Physician: Good morning, Ms. Jones. How are you feeling today?\n\nPatient: Good morning, doctor. I'm doing better, but I still have some discomfort now and then.",
+        [
+            {
+                "start": 114,
+                "end": 124,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "I had pain in my neck and back almost right away.",
+        [
+            {
+                "start": 14,
+                "end": 18,
+                "label": "SYMPTOM"
+            },
+            {
+                "start": 25,
+                "end": 29,
+                "label": "BODY_PART"
+            },
+            {
+                "start": 34,
+                "end": 38,
+                "label": "BODY_PART"
+            }
+        ]
+    ],
+    [
+        "They said it was a whiplash injury, but they didn't do any X-rays.",
+        [
+            {
+                "start": 19,
+                "end": 34,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "I had to take painkillers regularly and go through ten sessions of physiotherapy.",
+        [
+            {
+                "start": 14,
+                "end": 25,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 67,
+                "end": 80,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "I do get occasional backaches. It's nothing like before, though.",
+        [
+            {
+                "start": 20,
+                "end": 29,
+                "label": "SYMPTOM"
+            },
+            {
+                "start": 10,
+                "end": 29,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "Your neck and back have a full range of movement, and there's no tenderness.",
+        [
+            {
+                "start": 5,
+                "end": 9,
+                "label": "BODY_PART"
+            },
+            {
+                "start": 14,
+                "end": 18,
+                "label": "BODY_PART"
+            }
+        ]
+    ],
+    [
+        "I'd expect you to make a full recovery within six months.",
+        [
+            {
+                "start": 25,
+                "end": 38,
+                "label": "PROGNOSIS"
+            }
+        ]
+    ],
+    [
+        "I've been having these terrible headaches for the past two weeks.",
+        [
+            {
+                "start": 23,
+                "end": 41,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "They start behind my eyes and spread to the back of my head. Sometimes I feel nauseous too.",
+        [
+            {
+                "start": 20,
+                "end": 24,
+                "label": "BODY_PART"
+            },
+            {
+                "start": 49,
+                "end": 53,
+                "label": "BODY_PART"
+            },
+            {
+                "start": 78,
+                "end": 86,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "This sounds like tension headaches, which are very common.",
+        [
+            {
+                "start": 17,
+                "end": 34,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "We can try a preventive medication if the headaches persist.",
+        [
+            {
+                "start": 13,
+                "end": 34,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 42,
+                "end": 51,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "Your blood pressure is elevated at 150/95.",
+        [
+            {
+                "start": 5,
+                "end": 19,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "Your blood glucose levels indicate pre-diabetes.",
+        [
+            {
+                "start": 35,
+                "end": 47,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "Your cholesterol panel shows elevated LDL cholesterol.",
+        [
+            {
+                "start": 29,
+                "end": 53,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "Your X-ray shows mild osteoarthritis in your right knee.",
+        [
+            {
+                "start": 17,
+                "end": 37,
+                "label": "DIAGNOSIS"
+            },
+            {
+                "start": 50,
+                "end": 54,
+                "label": "BODY_PART"
+            }
+        ]
+    ],
+    [
+        "I'm prescribing lisinopril 10mg daily for your blood pressure.",
+        [
+            {
+                "start": 16,
+                "end": 37,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "For cholesterol, I'm adding atorvastatin 20mg at bedtime.",
+        [
+            {
+                "start": 28,
+                "end": 45,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "We'll try physical therapy first - twice weekly for six weeks.",
+        [
+            {
+                "start": 10,
+                "end": 26,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "I've been having more asthma attacks lately, especially at night.",
+        [
+            {
+                "start": 22,
+                "end": 36,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "I wake up coughing and can't breathe properly.",
+        [
+            {
+                "start": 10,
+                "end": 18,
+                "label": "SYMPTOM"
+            },
+            {
+                "start": 23,
+                "end": 45,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "I've had to use my rescue inhaler about 4-5 times a day.",
+        [
+            {
+                "start": 18,
+                "end": 32,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "I can hear some wheezing in both lungs.",
+        [
+            {
+                "start": 16,
+                "end": 24,
+                "label": "SYMPTOM"
+            },
+            {
+                "start": 33,
+                "end": 38,
+                "label": "BODY_PART"
+            }
+        ]
+    ],
+    [
+        "I'm going to add a daily inhaled corticosteroid - fluticasone, two puffs twice daily.",
+        [
+            {
+                "start": 25,
+                "end": 48,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 51,
+                "end": 62,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "Use HEPA air filters and vacuum frequently.",
+        [
+            {
+                "start": 4,
+                "end": 20,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "I just have no energy. I drag myself through the day and still feel exhausted.",
+        [
+            {
+                "start": 12,
+                "end": 21,
+                "label": "SYMPTOM"
+            },
+            {
+                "start": 69,
+                "end": 78,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "I've also noticed I'm always cold, even when others are comfortable.",
+        [
+            {
+                "start": 23,
+                "end": 34,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "I've gained about 8 pounds without changing my diet.",
+        [
+            {
+                "start": 4,
+                "end": 27,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "My hair seems thinner and my skin is really dry.",
+        [
+            {
+                "start": 3,
+                "end": 21,
+                "label": "SYMPTOM"
+            },
+            {
+                "start": 30,
+                "end": 47,
+                "label": "SYMPTOM"
+            },
+            {
+                "start": 3,
+                "end": 7,
+                "label": "BODY_PART"
+            },
+            {
+                "start": 30,
+                "end": 34,
+                "label": "BODY_PART"
+            }
+        ]
+    ],
+    [
+        "Your TSH is elevated at 12.5, and your free T4 is low. This confirms hypothyroidism.",
+        [
+            {
+                "start": 70,
+                "end": 84,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "I'm starting you on levothyroxine 50 micrograms daily.",
+        [
+            {
+                "start": 20,
+                "end": 53,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "I've had this burning feeling in my chest, especially after eating.",
+        [
+            {
+                "start": 14,
+                "end": 41,
+                "label": "SYMPTOM"
+            },
+            {
+                "start": 35,
+                "end": 40,
+                "label": "BODY_PART"
+            }
+        ]
+    ],
+    [
+        "Sometimes food comes back up into my throat.",
+        [
+            {
+                "start": 10,
+                "end": 43,
+                "label": "SYMPTOM"
+            },
+            {
+                "start": 38,
+                "end": 44,
+                "label": "BODY_PART"
+            }
+        ]
+    ],
+    [
+        "You likely have gastroesophageal reflux disease, or GERD.",
+        [
+            {
+                "start": 16,
+                "end": 47,
+                "label": "DIAGNOSIS"
+            },
+            {
+                "start": 52,
+                "end": 56,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "I'm going to prescribe omeprazole 20mg daily before breakfast.",
+        [
+            {
+                "start": 23,
+                "end": 40,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "My hands and wrists hurt a lot, especially in the morning.",
+        [
+            {
+                "start": 3,
+                "end": 8,
+                "label": "BODY_PART"
+            },
+            {
+                "start": 13,
+                "end": 19,
+                "label": "BODY_PART"
+            },
+            {
+                "start": 20,
+                "end": 24,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "The morning stiffness lasts about an hour or more.",
+        [
+            {
+                "start": 4,
+                "end": 21,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "My fingers feel so stiff I can barely make a fist.",
+        [
+            {
+                "start": 19,
+                "end": 24,
+                "label": "SYMPTOM"
+            },
+            {
+                "start": 3,
+                "end": 10,
+                "label": "BODY_PART"
+            }
+        ]
+    ],
+    [
+        "My knuckles sometimes look puffy, and my wedding ring doesn't fit anymore.",
+        [
+            {
+                "start": 3,
+                "end": 11,
+                "label": "BODY_PART"
+            },
+            {
+                "start": 22,
+                "end": 32,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "I'm concerned this could be rheumatoid arthritis.",
+        [
+            {
+                "start": 28,
+                "end": 48,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "We'd start disease-modifying medications early to prevent joint damage.",
+        [
+            {
+                "start": 12,
+                "end": 42,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "My tummy hurts a lot. And I've been pooping a lot.",
+        [
+            {
+                "start": 3,
+                "end": 14,
+                "label": "SYMPTOM"
+            },
+            {
+                "start": 3,
+                "end": 8,
+                "label": "BODY_PART"
+            },
+            {
+                "start": 36,
+                "end": 49,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "He's been having diarrhea for about a week now. And he throws up sometimes too.",
+        [
+            {
+                "start": 17,
+                "end": 25,
+                "label": "SYMPTOM"
+            },
+            {
+                "start": 56,
+                "end": 65,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "He had a fever, it was 101°F yesterday.",
+        [
+            {
+                "start": 9,
+                "end": 14,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "This looks like a viral gastroenteritis - a stomach bug.",
+        [
+            {
+                "start": 18,
+                "end": 39,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "Push clear fluids - small sips frequently. Pedialyte is great.",
+        [
+            {
+                "start": 5,
+                "end": 17,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 43,
+                "end": 52,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "You can use acetaminophen for fever.",
+        [
+            {
+                "start": 12,
+                "end": 25,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 30,
+                "end": 35,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "There's a small mass in your left breast that wasn't there on your previous scan.",
+        [
+            {
+                "start": 12,
+                "end": 22,
+                "label": "SYMPTOM"
+            },
+            {
+                "start": 31,
+                "end": 42,
+                "label": "BODY_PART"
+            }
+        ]
+    ],
+    [
+        "We'll do a diagnostic mammogram with additional views, and likely an ultrasound.",
+        [
+            {
+                "start": 11,
+                "end": 31,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 69,
+                "end": 79,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "Based on those results, we may recommend a biopsy.",
+        [
+            {
+                "start": 43,
+                "end": 49,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "The room just starts spinning out of nowhere. I feel like I'm going to fall over.",
+        [
+            {
+                "start": 20,
+                "end": 28,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "I feel nauseous during the episodes. Yesterday I actually threw up.",
+        [
+            {
+                "start": 7,
+                "end": 15,
+                "label": "SYMPTOM"
+            },
+            {
+                "start": 58,
+                "end": 66,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "There is some ringing in my right ear.",
+        [
+            {
+                "start": 14,
+                "end": 21,
+                "label": "SYMPTOM"
+            },
+            {
+                "start": 28,
+                "end": 37,
+                "label": "BODY_PART"
+            }
+        ]
+    ],
+    [
+        "You have benign paroxysmal positional vertigo, or BPPV.",
+        [
+            {
+                "start": 9,
+                "end": 45,
+                "label": "DIAGNOSIS"
+            },
+            {
+                "start": 50,
+                "end": 54,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "It's caused by tiny crystals in your inner ear that get displaced.",
+        [
+            {
+                "start": 38,
+                "end": 47,
+                "label": "BODY_PART"
+            }
+        ]
+    ],
+    [
+        "We can often fix it right now with a repositioning maneuver called the Epley maneuver.",
+        [
+            {
+                "start": 37,
+                "end": 58,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 71,
+                "end": 85,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "I'm prescribing antibiotics for your infection.",
+        [
+            {
+                "start": 16,
+                "end": 27,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "The MRI shows a herniated disc at L4-L5.",
+        [
+            {
+                "start": 16,
+                "end": 30,
+                "label": "DIAGNOSIS"
+            },
+            {
+                "start": 34,
+                "end": 39,
+                "label": "BODY_PART"
+            }
+        ]
+    ],
+    [
+        "You need to take insulin twice daily for your diabetes.",
+        [
+            {
+                "start": 17,
+                "end": 24,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 47,
+                "end": 55,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "The ECG shows atrial fibrillation.",
+        [
+            {
+                "start": 14,
+                "end": 33,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "We'll start you on blood thinners to prevent stroke.",
+        [
+            {
+                "start": 19,
+                "end": 33,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 45,
+                "end": 51,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ]
+]

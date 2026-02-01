@@ -1,0 +1,27 @@
+Physician: Hello Mrs. Garcia. I've reviewed your test results and would like to discuss them with you.
+
+Patient: Yes, I've been waiting anxiously. What did you find?
+
+Physician: We found a few things. First, your blood pressure is elevated at 150/95. Second, your blood glucose levels indicate pre-diabetes. And your cholesterol panel shows elevated LDL cholesterol.
+
+Patient: Oh my. That's a lot to take in. I also came in because of my knee pain, remember?
+
+Physician: Yes, and your X-ray shows mild osteoarthritis in your right knee. So we have multiple conditions to address.
+
+Patient: This is overwhelming. How do we deal with all of this?
+
+Physician: Let's take it step by step. For the hypertension, I'm prescribing lisinopril 10mg daily. For the pre-diabetes, we'll start with dietary changes - reducing sugar and refined carbs.
+
+Patient: What about the cholesterol and my knee?
+
+Physician: For cholesterol, I'm adding atorvastatin 20mg at bedtime. For your knee, we'll try physical therapy first - twice weekly for six weeks. I'm also prescribing a topical anti-inflammatory gel.
+
+Patient: That's a lot of medications. Will they interact with each other?
+
+Physician: Good question. These medications are commonly used together safely. I'll also recommend a low-sodium, Mediterranean-style diet which will help with blood pressure, cholesterol, and blood sugar.
+
+Patient: When do I need to come back?
+
+Physician: Let's schedule a follow-up in 4 weeks to check your blood pressure and see how you're responding to the medications. We'll repeat blood work in 3 months.
+
+Patient: Thank you for explaining everything, doctor. I feel more confident about managing this now.

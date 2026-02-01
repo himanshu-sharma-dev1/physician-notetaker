@@ -1,0 +1,2522 @@
+[
+    [
+        "I've been having severe headaches for the past week.",
+        [
+            {
+                "start": 14,
+                "end": 30,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "The pain in my lower back is unbearable.",
+        [
+            {
+                "start": 4,
+                "end": 8,
+                "label": "SYMPTOM"
+            },
+            {
+                "start": 15,
+                "end": 25,
+                "label": "BODY_PART"
+            }
+        ]
+    ],
+    [
+        "I was diagnosed with type 2 diabetes last year.",
+        [
+            {
+                "start": 19,
+                "end": 34,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "The doctor prescribed metformin 500mg twice daily.",
+        [
+            {
+                "start": 21,
+                "end": 49,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "My blood pressure has been consistently high.",
+        [
+            {
+                "start": 3,
+                "end": 17,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "I'm experiencing numbness in my fingers.",
+        [
+            {
+                "start": 16,
+                "end": 24,
+                "label": "SYMPTOM"
+            },
+            {
+                "start": 31,
+                "end": 38,
+                "label": "BODY_PART"
+            }
+        ]
+    ],
+    [
+        "The X-ray showed a fracture in my wrist.",
+        [
+            {
+                "start": 19,
+                "end": 27,
+                "label": "DIAGNOSIS"
+            },
+            {
+                "start": 34,
+                "end": 39,
+                "label": "BODY_PART"
+            }
+        ]
+    ],
+    [
+        "They recommended physical therapy for my shoulder injury.",
+        [
+            {
+                "start": 17,
+                "end": 33,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 41,
+                "end": 56,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "I've been taking lisinopril for hypertension.",
+        [
+            {
+                "start": 17,
+                "end": 27,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 32,
+                "end": 44,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "The swelling in my ankle hasn't gone down.",
+        [
+            {
+                "start": 4,
+                "end": 12,
+                "label": "SYMPTOM"
+            },
+            {
+                "start": 19,
+                "end": 24,
+                "label": "BODY_PART"
+            }
+        ]
+    ],
+    [
+        "My throat has been sore for three days.",
+        [
+            {
+                "start": 3,
+                "end": 9,
+                "label": "BODY_PART"
+            },
+            {
+                "start": 19,
+                "end": 23,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "The biopsy confirmed it was benign.",
+        [
+            {
+                "start": 4,
+                "end": 10,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 28,
+                "end": 34,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "I need to take insulin injections for my diabetes.",
+        [
+            {
+                "start": 15,
+                "end": 33,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 41,
+                "end": 49,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "The MRI revealed a herniated disc.",
+        [
+            {
+                "start": 4,
+                "end": 7,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 19,
+                "end": 33,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "I've been experiencing chest pain when I exercise.",
+        [
+            {
+                "start": 22,
+                "end": 32,
+                "label": "SYMPTOM"
+            },
+            {
+                "start": 17,
+                "end": 22,
+                "label": "BODY_PART"
+            }
+        ]
+    ],
+    [
+        "The cardiologist suspects arrhythmia.",
+        [
+            {
+                "start": 26,
+                "end": 36,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "I was prescribed amoxicillin for the infection.",
+        [
+            {
+                "start": 17,
+                "end": 28,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 37,
+                "end": 46,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "My joints have been very stiff in the morning.",
+        [
+            {
+                "start": 3,
+                "end": 9,
+                "label": "BODY_PART"
+            },
+            {
+                "start": 25,
+                "end": 30,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "The ultrasound showed gallstones.",
+        [
+            {
+                "start": 4,
+                "end": 14,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 22,
+                "end": 32,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "I'm taking omeprazole for acid reflux.",
+        [
+            {
+                "start": 11,
+                "end": 21,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 26,
+                "end": 37,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "The pain radiates down my left arm.",
+        [
+            {
+                "start": 4,
+                "end": 8,
+                "label": "SYMPTOM"
+            },
+            {
+                "start": 26,
+                "end": 34,
+                "label": "BODY_PART"
+            }
+        ]
+    ],
+    [
+        "I have chronic fatigue syndrome.",
+        [
+            {
+                "start": 7,
+                "end": 31,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "The dermatologist diagnosed eczema.",
+        [
+            {
+                "start": 20,
+                "end": 34,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "Applying hydrocortisone cream helps with the itching.",
+        [
+            {
+                "start": 9,
+                "end": 29,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 45,
+                "end": 52,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "I've noticed blood in my stool.",
+        [
+            {
+                "start": 12,
+                "end": 17,
+                "label": "SYMPTOM"
+            },
+            {
+                "start": 25,
+                "end": 30,
+                "label": "BODY_PART"
+            }
+        ]
+    ],
+    [
+        "The colonoscopy is scheduled for next week.",
+        [
+            {
+                "start": 4,
+                "end": 15,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "My vision has been getting blurry.",
+        [
+            {
+                "start": 3,
+                "end": 9,
+                "label": "BODY_PART"
+            },
+            {
+                "start": 27,
+                "end": 33,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "The ophthalmologist diagnosed cataracts.",
+        [
+            {
+                "start": 26,
+                "end": 35,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "I need surgery to remove the tumor.",
+        [
+            {
+                "start": 7,
+                "end": 14,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 29,
+                "end": 34,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "The chemotherapy starts next month.",
+        [
+            {
+                "start": 4,
+                "end": 16,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "I've been having trouble sleeping.",
+        [
+            {
+                "start": 14,
+                "end": 33,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "The doctor prescribed melatonin supplements.",
+        [
+            {
+                "start": 22,
+                "end": 43,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "My stomach has been upset all week.",
+        [
+            {
+                "start": 3,
+                "end": 10,
+                "label": "BODY_PART"
+            },
+            {
+                "start": 20,
+                "end": 25,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "The test showed elevated cholesterol levels.",
+        [
+            {
+                "start": 25,
+                "end": 35,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "I'm on atorvastatin for high cholesterol.",
+        [
+            {
+                "start": 7,
+                "end": 19,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 24,
+                "end": 40,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "The rash has spread to my arms.",
+        [
+            {
+                "start": 4,
+                "end": 8,
+                "label": "SYMPTOM"
+            },
+            {
+                "start": 26,
+                "end": 30,
+                "label": "BODY_PART"
+            }
+        ]
+    ],
+    [
+        "I was diagnosed with rheumatoid arthritis.",
+        [
+            {
+                "start": 21,
+                "end": 41,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "Taking ibuprofen helps with the inflammation.",
+        [
+            {
+                "start": 7,
+                "end": 16,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 32,
+                "end": 44,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "My lungs sound clear according to the doctor.",
+        [
+            {
+                "start": 3,
+                "end": 8,
+                "label": "BODY_PART"
+            }
+        ]
+    ],
+    [
+        "The CT scan showed no abnormalities.",
+        [
+            {
+                "start": 4,
+                "end": 11,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "I've been experiencing dizziness when I stand up.",
+        [
+            {
+                "start": 23,
+                "end": 32,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "The neurologist diagnosed vertigo.",
+        [
+            {
+                "start": 26,
+                "end": 33,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "Physical therapy helped with my range of motion.",
+        [
+            {
+                "start": 0,
+                "end": 16,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "The bruising on my leg is concerning.",
+        [
+            {
+                "start": 4,
+                "end": 12,
+                "label": "SYMPTOM"
+            },
+            {
+                "start": 19,
+                "end": 22,
+                "label": "BODY_PART"
+            }
+        ]
+    ],
+    [
+        "I need a tetanus shot.",
+        [
+            {
+                "start": 9,
+                "end": 21,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "My hearing has been declining.",
+        [
+            {
+                "start": 3,
+                "end": 10,
+                "label": "BODY_PART"
+            },
+            {
+                "start": 20,
+                "end": 29,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "The audiologist recommended hearing aids.",
+        [
+            {
+                "start": 27,
+                "end": 39,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "I have high blood sugar levels.",
+        [
+            {
+                "start": 7,
+                "end": 23,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "The endocrinologist adjusted my insulin dosage.",
+        [
+            {
+                "start": 32,
+                "end": 39,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "My knee replacement surgery went well.",
+        [
+            {
+                "start": 3,
+                "end": 19,
+                "label": "BODY_PART"
+            },
+            {
+                "start": 20,
+                "end": 27,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "The wound is healing properly.",
+        [
+            {
+                "start": 4,
+                "end": 9,
+                "label": "BODY_PART"
+            },
+            {
+                "start": 13,
+                "end": 20,
+                "label": "PROGNOSIS"
+            }
+        ]
+    ],
+    [
+        "I've been having panic attacks.",
+        [
+            {
+                "start": 14,
+                "end": 27,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "The psychiatrist prescribed sertraline.",
+        [
+            {
+                "start": 28,
+                "end": 38,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "My appetite has decreased significantly.",
+        [
+            {
+                "start": 3,
+                "end": 11,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "The blood test showed anemia.",
+        [
+            {
+                "start": 4,
+                "end": 14,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 22,
+                "end": 28,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "I'm taking iron supplements.",
+        [
+            {
+                "start": 11,
+                "end": 27,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "The fever has gone down to normal.",
+        [
+            {
+                "start": 4,
+                "end": 9,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "I was prescribed antibiotics for the UTI.",
+        [
+            {
+                "start": 17,
+                "end": 28,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 37,
+                "end": 40,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "My sinuses are completely blocked.",
+        [
+            {
+                "start": 3,
+                "end": 10,
+                "label": "BODY_PART"
+            },
+            {
+                "start": 26,
+                "end": 33,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "Using a nasal spray helps with congestion.",
+        [
+            {
+                "start": 8,
+                "end": 19,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 31,
+                "end": 41,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "The tumor was successfully removed.",
+        [
+            {
+                "start": 4,
+                "end": 9,
+                "label": "DIAGNOSIS"
+            },
+            {
+                "start": 26,
+                "end": 33,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "My prognosis is excellent.",
+        [
+            {
+                "start": 3,
+                "end": 12,
+                "label": "PROGNOSIS"
+            }
+        ]
+    ],
+    [
+        "I've been experiencing nausea after eating.",
+        [
+            {
+                "start": 23,
+                "end": 29,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "The gastroenterologist suspects GERD.",
+        [
+            {
+                "start": 32,
+                "end": 36,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "Taking antacids provides relief.",
+        [
+            {
+                "start": 7,
+                "end": 15,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "My liver function tests came back abnormal.",
+        [
+            {
+                "start": 3,
+                "end": 8,
+                "label": "BODY_PART"
+            },
+            {
+                "start": 35,
+                "end": 43,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "The hepatologist ordered more tests.",
+        [
+            {
+                "start": 26,
+                "end": 31,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "I have a family history of heart disease.",
+        [
+            {
+                "start": 28,
+                "end": 41,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "Regular exercise improves cardiovascular health.",
+        [
+            {
+                "start": 8,
+                "end": 16,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 26,
+                "end": 47,
+                "label": "PROGNOSIS"
+            }
+        ]
+    ],
+    [
+        "The splint is keeping my finger immobilized.",
+        [
+            {
+                "start": 4,
+                "end": 10,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 26,
+                "end": 32,
+                "label": "BODY_PART"
+            }
+        ]
+    ],
+    [
+        "I'm recovering well from the appendectomy.",
+        [
+            {
+                "start": 29,
+                "end": 41,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "My thyroid levels are within normal range.",
+        [
+            {
+                "start": 3,
+                "end": 10,
+                "label": "BODY_PART"
+            }
+        ]
+    ],
+    [
+        "The endoscopy revealed ulcers.",
+        [
+            {
+                "start": 4,
+                "end": 13,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 23,
+                "end": 29,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "I need to take proton pump inhibitors.",
+        [
+            {
+                "start": 15,
+                "end": 37,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "My allergies are acting up this season.",
+        [
+            {
+                "start": 3,
+                "end": 12,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "Taking antihistamines helps with symptoms.",
+        [
+            {
+                "start": 7,
+                "end": 21,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "The orthopedic surgeon recommended a hip replacement.",
+        [
+            {
+                "start": 39,
+                "end": 54,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "My mobility should improve after recovery.",
+        [
+            {
+                "start": 3,
+                "end": 11,
+                "label": "SYMPTOM"
+            },
+            {
+                "start": 19,
+                "end": 26,
+                "label": "PROGNOSIS"
+            }
+        ]
+    ],
+    [
+        "I've been coughing up phlegm for weeks.",
+        [
+            {
+                "start": 11,
+                "end": 30,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "The pulmonologist suspects bronchitis.",
+        [
+            {
+                "start": 27,
+                "end": 37,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "I need a chest X-ray to rule out pneumonia.",
+        [
+            {
+                "start": 9,
+                "end": 20,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 34,
+                "end": 43,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "My hands tremble when I hold things.",
+        [
+            {
+                "start": 3,
+                "end": 8,
+                "label": "BODY_PART"
+            },
+            {
+                "start": 9,
+                "end": 16,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "The neurologist diagnosed essential tremor.",
+        [
+            {
+                "start": 26,
+                "end": 42,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "Beta blockers help control the tremors.",
+        [
+            {
+                "start": 0,
+                "end": 13,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 31,
+                "end": 38,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "My PSA levels are elevated.",
+        [
+            {
+                "start": 3,
+                "end": 13,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "The urologist recommended a prostate biopsy.",
+        [
+            {
+                "start": 28,
+                "end": 43,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "I've been experiencing hot flashes.",
+        [
+            {
+                "start": 23,
+                "end": 34,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "Hormone replacement therapy was suggested.",
+        [
+            {
+                "start": 0,
+                "end": 27,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "My bone density scan showed osteoporosis.",
+        [
+            {
+                "start": 3,
+                "end": 20,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 28,
+                "end": 40,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "I'm taking calcium and vitamin D supplements.",
+        [
+            {
+                "start": 11,
+                "end": 44,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "The wound has become infected.",
+        [
+            {
+                "start": 4,
+                "end": 9,
+                "label": "BODY_PART"
+            },
+            {
+                "start": 21,
+                "end": 29,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "Topical antibiotics were prescribed.",
+        [
+            {
+                "start": 0,
+                "end": 19,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "My glucose monitor shows high readings.",
+        [
+            {
+                "start": 3,
+                "end": 18,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 25,
+                "end": 38,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "The dietitian recommended a low-carb diet.",
+        [
+            {
+                "start": 28,
+                "end": 41,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "I've been having irregular heartbeat.",
+        [
+            {
+                "start": 14,
+                "end": 36,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "The ECG showed atrial fibrillation.",
+        [
+            {
+                "start": 4,
+                "end": 7,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 15,
+                "end": 34,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "Blood thinners were prescribed to prevent stroke.",
+        [
+            {
+                "start": 0,
+                "end": 14,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 42,
+                "end": 48,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "My scalp has been very itchy.",
+        [
+            {
+                "start": 3,
+                "end": 8,
+                "label": "BODY_PART"
+            },
+            {
+                "start": 23,
+                "end": 28,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "The dermatologist diagnosed psoriasis.",
+        [
+            {
+                "start": 28,
+                "end": 37,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "Medicated shampoo helps with the symptoms.",
+        [
+            {
+                "start": 0,
+                "end": 18,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "I've noticed a lump in my breast.",
+        [
+            {
+                "start": 15,
+                "end": 19,
+                "label": "SYMPTOM"
+            },
+            {
+                "start": 26,
+                "end": 32,
+                "label": "BODY_PART"
+            }
+        ]
+    ],
+    [
+        "The mammogram came back normal.",
+        [
+            {
+                "start": 4,
+                "end": 13,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "My blood oxygen levels dropped.",
+        [
+            {
+                "start": 3,
+                "end": 23,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "I need supplemental oxygen therapy.",
+        [
+            {
+                "start": 7,
+                "end": 34,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "The sprain in my ankle is healing.",
+        [
+            {
+                "start": 4,
+                "end": 10,
+                "label": "DIAGNOSIS"
+            },
+            {
+                "start": 17,
+                "end": 22,
+                "label": "BODY_PART"
+            },
+            {
+                "start": 26,
+                "end": 33,
+                "label": "PROGNOSIS"
+            }
+        ]
+    ],
+    [
+        "I'm using crutches for support.",
+        [
+            {
+                "start": 10,
+                "end": 18,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "My menstrual cramps are severe.",
+        [
+            {
+                "start": 3,
+                "end": 19,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "The gynecologist prescribed birth control pills.",
+        [
+            {
+                "start": 28,
+                "end": 47,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "I've been experiencing acid reflux at night.",
+        [
+            {
+                "start": 23,
+                "end": 34,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "Elevating the head of my bed helps.",
+        [
+            {
+                "start": 0,
+                "end": 28,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 21,
+                "end": 24,
+                "label": "BODY_PART"
+            }
+        ]
+    ],
+    [
+        "The lab work showed kidney dysfunction.",
+        [
+            {
+                "start": 4,
+                "end": 12,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 20,
+                "end": 38,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "I need to reduce my sodium intake.",
+        [
+            {
+                "start": 18,
+                "end": 33,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "My varicose veins are getting worse.",
+        [
+            {
+                "start": 3,
+                "end": 17,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "Compression stockings were recommended.",
+        [
+            {
+                "start": 0,
+                "end": 21,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "I've been having memory problems.",
+        [
+            {
+                "start": 14,
+                "end": 29,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "The cognitive assessment showed mild impairment.",
+        [
+            {
+                "start": 4,
+                "end": 24,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 32,
+                "end": 47,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "My blood sugar is finally under control.",
+        [
+            {
+                "start": 3,
+                "end": 14,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "The A1C test showed improvement.",
+        [
+            {
+                "start": 4,
+                "end": 12,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 20,
+                "end": 31,
+                "label": "PROGNOSIS"
+            }
+        ]
+    ],
+    [
+        "I've been experiencing shortness of breath.",
+        [
+            {
+                "start": 23,
+                "end": 42,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "The spirometry test was abnormal.",
+        [
+            {
+                "start": 4,
+                "end": 19,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 24,
+                "end": 32,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "I was diagnosed with COPD.",
+        [
+            {
+                "start": 21,
+                "end": 25,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "Using an inhaler helps with breathing.",
+        [
+            {
+                "start": 9,
+                "end": 16,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 28,
+                "end": 37,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "My joints are inflamed and painful.",
+        [
+            {
+                "start": 3,
+                "end": 9,
+                "label": "BODY_PART"
+            },
+            {
+                "start": 14,
+                "end": 22,
+                "label": "SYMPTOM"
+            },
+            {
+                "start": 27,
+                "end": 34,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "Corticosteroid injections provided relief.",
+        [
+            {
+                "start": 0,
+                "end": 26,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "The skin biopsy confirmed melanoma.",
+        [
+            {
+                "start": 4,
+                "end": 15,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 26,
+                "end": 34,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "Early detection improves survival rates.",
+        [
+            {
+                "start": 20,
+                "end": 39,
+                "label": "PROGNOSIS"
+            }
+        ]
+    ],
+    [
+        "I've been having seizures.",
+        [
+            {
+                "start": 14,
+                "end": 22,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "The EEG showed abnormal brain activity.",
+        [
+            {
+                "start": 4,
+                "end": 7,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 24,
+                "end": 38,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "Antiepileptic medication was prescribed.",
+        [
+            {
+                "start": 0,
+                "end": 24,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "My surgery is scheduled for next month.",
+        [
+            {
+                "start": 3,
+                "end": 10,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "Complete recovery is expected within six weeks.",
+        [
+            {
+                "start": 0,
+                "end": 17,
+                "label": "PROGNOSIS"
+            }
+        ]
+    ],
+    [
+        "I've been experiencing chronic pain.",
+        [
+            {
+                "start": 23,
+                "end": 35,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "Pain management techniques were taught.",
+        [
+            {
+                "start": 0,
+                "end": 20,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "The dental X-ray showed a cavity.",
+        [
+            {
+                "start": 4,
+                "end": 16,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 26,
+                "end": 32,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "I need a filling in my molar.",
+        [
+            {
+                "start": 9,
+                "end": 16,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 23,
+                "end": 28,
+                "label": "BODY_PART"
+            }
+        ]
+    ],
+    [
+        "My tonsils are swollen and infected.",
+        [
+            {
+                "start": 3,
+                "end": 10,
+                "label": "BODY_PART"
+            },
+            {
+                "start": 15,
+                "end": 22,
+                "label": "SYMPTOM"
+            },
+            {
+                "start": 27,
+                "end": 35,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "The ENT recommended a tonsillectomy.",
+        [
+            {
+                "start": 22,
+                "end": 35,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "I've developed carpal tunnel syndrome.",
+        [
+            {
+                "start": 15,
+                "end": 37,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "Wrist splints help reduce symptoms.",
+        [
+            {
+                "start": 0,
+                "end": 13,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 0,
+                "end": 5,
+                "label": "BODY_PART"
+            }
+        ]
+    ],
+    [
+        "My blood clot is dissolving.",
+        [
+            {
+                "start": 3,
+                "end": 13,
+                "label": "DIAGNOSIS"
+            },
+            {
+                "start": 17,
+                "end": 27,
+                "label": "PROGNOSIS"
+            }
+        ]
+    ],
+    [
+        "Anticoagulant therapy is working.",
+        [
+            {
+                "start": 0,
+                "end": 22,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "I've been having migraines with aura.",
+        [
+            {
+                "start": 17,
+                "end": 36,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "Triptans help abort the attacks.",
+        [
+            {
+                "start": 0,
+                "end": 8,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "My reflexes seem slow.",
+        [
+            {
+                "start": 3,
+                "end": 11,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "The nerve conduction study was ordered.",
+        [
+            {
+                "start": 4,
+                "end": 27,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "I have a urinary tract infection.",
+        [
+            {
+                "start": 9,
+                "end": 32,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "A course of ciprofloxacin was prescribed.",
+        [
+            {
+                "start": 12,
+                "end": 25,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "My gums have been bleeding.",
+        [
+            {
+                "start": 3,
+                "end": 7,
+                "label": "BODY_PART"
+            },
+            {
+                "start": 18,
+                "end": 26,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "The periodontist diagnosed gingivitis.",
+        [
+            {
+                "start": 27,
+                "end": 37,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "Deep cleaning was recommended.",
+        [
+            {
+                "start": 0,
+                "end": 13,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "I've been experiencing vertigo.",
+        [
+            {
+                "start": 23,
+                "end": 30,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "The Epley maneuver provided relief.",
+        [
+            {
+                "start": 4,
+                "end": 18,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "My cataract surgery was successful.",
+        [
+            {
+                "start": 3,
+                "end": 19,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "Vision should improve over the next few weeks.",
+        [
+            {
+                "start": 0,
+                "end": 6,
+                "label": "PROGNOSIS"
+            }
+        ]
+    ],
+    [
+        "I've developed a skin infection.",
+        [
+            {
+                "start": 17,
+                "end": 31,
+                "label": "DIAGNOSIS"
+            },
+            {
+                "start": 17,
+                "end": 21,
+                "label": "BODY_PART"
+            }
+        ]
+    ],
+    [
+        "Oral antibiotics were started.",
+        [
+            {
+                "start": 0,
+                "end": 16,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "My hip pain has improved significantly.",
+        [
+            {
+                "start": 3,
+                "end": 11,
+                "label": "SYMPTOM"
+            },
+            {
+                "start": 3,
+                "end": 6,
+                "label": "BODY_PART"
+            },
+            {
+                "start": 16,
+                "end": 38,
+                "label": "PROGNOSIS"
+            }
+        ]
+    ],
+    [
+        "Physical therapy exercises are helping.",
+        [
+            {
+                "start": 0,
+                "end": 27,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "I've been diagnosed with sleep apnea.",
+        [
+            {
+                "start": 25,
+                "end": 36,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "A CPAP machine was prescribed.",
+        [
+            {
+                "start": 2,
+                "end": 14,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "My stress levels have been very high.",
+        [
+            {
+                "start": 3,
+                "end": 16,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "Counseling and relaxation techniques were recommended.",
+        [
+            {
+                "start": 0,
+                "end": 10,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 15,
+                "end": 37,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "The wound closure looks good.",
+        [
+            {
+                "start": 4,
+                "end": 17,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 24,
+                "end": 28,
+                "label": "PROGNOSIS"
+            }
+        ]
+    ],
+    [
+        "Stitches will be removed in a week.",
+        [
+            {
+                "start": 0,
+                "end": 8,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "I've been having night sweats.",
+        [
+            {
+                "start": 14,
+                "end": 26,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "The oncologist ordered additional tests.",
+        [
+            {
+                "start": 29,
+                "end": 34,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "My asthma is well controlled now.",
+        [
+            {
+                "start": 3,
+                "end": 9,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "The peak flow readings are improving.",
+        [
+            {
+                "start": 4,
+                "end": 22,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 27,
+                "end": 36,
+                "label": "PROGNOSIS"
+            }
+        ]
+    ],
+    [
+        "I've developed plantar fasciitis.",
+        [
+            {
+                "start": 16,
+                "end": 33,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "Custom orthotics were prescribed.",
+        [
+            {
+                "start": 0,
+                "end": 16,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "My potassium levels are low.",
+        [
+            {
+                "start": 3,
+                "end": 19,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "Potassium supplements were started.",
+        [
+            {
+                "start": 0,
+                "end": 21,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "The wound is granulating well.",
+        [
+            {
+                "start": 4,
+                "end": 9,
+                "label": "BODY_PART"
+            },
+            {
+                "start": 13,
+                "end": 24,
+                "label": "PROGNOSIS"
+            }
+        ]
+    ],
+    [
+        "Daily dressing changes are required.",
+        [
+            {
+                "start": 6,
+                "end": 23,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "I have polycystic ovary syndrome.",
+        [
+            {
+                "start": 7,
+                "end": 32,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "Birth control pills help regulate cycles.",
+        [
+            {
+                "start": 0,
+                "end": 19,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "My cholesterol ratio is improving.",
+        [
+            {
+                "start": 3,
+                "end": 21,
+                "label": "SYMPTOM"
+            },
+            {
+                "start": 25,
+                "end": 34,
+                "label": "PROGNOSIS"
+            }
+        ]
+    ],
+    [
+        "Statins are working effectively.",
+        [
+            {
+                "start": 0,
+                "end": 7,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "I've been experiencing muscle cramps.",
+        [
+            {
+                "start": 23,
+                "end": 36,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "Magnesium supplements were recommended.",
+        [
+            {
+                "start": 0,
+                "end": 21,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "The stress test was normal.",
+        [
+            {
+                "start": 4,
+                "end": 15,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "My heart function appears healthy.",
+        [
+            {
+                "start": 3,
+                "end": 8,
+                "label": "BODY_PART"
+            },
+            {
+                "start": 27,
+                "end": 34,
+                "label": "PROGNOSIS"
+            }
+        ]
+    ],
+    [
+        "I've developed trigger finger.",
+        [
+            {
+                "start": 16,
+                "end": 30,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "Steroid injection was administered.",
+        [
+            {
+                "start": 0,
+                "end": 17,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "My gait has improved with therapy.",
+        [
+            {
+                "start": 3,
+                "end": 7,
+                "label": "SYMPTOM"
+            },
+            {
+                "start": 12,
+                "end": 20,
+                "label": "PROGNOSIS"
+            },
+            {
+                "start": 26,
+                "end": 33,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "The walking aids are no longer needed.",
+        [
+            {
+                "start": 4,
+                "end": 16,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "I have irritable bowel syndrome.",
+        [
+            {
+                "start": 7,
+                "end": 31,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "Dietary modifications help manage symptoms.",
+        [
+            {
+                "start": 0,
+                "end": 21,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "My wound has fully healed.",
+        [
+            {
+                "start": 3,
+                "end": 8,
+                "label": "BODY_PART"
+            },
+            {
+                "start": 19,
+                "end": 25,
+                "label": "PROGNOSIS"
+            }
+        ]
+    ],
+    [
+        "No further treatment is needed.",
+        [
+            {
+                "start": 3,
+                "end": 20,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "I've been diagnosed with fibromyalgia.",
+        [
+            {
+                "start": 25,
+                "end": 37,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "Pain relievers and exercise are recommended.",
+        [
+            {
+                "start": 0,
+                "end": 14,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 19,
+                "end": 27,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "My platelet count is low.",
+        [
+            {
+                "start": 3,
+                "end": 17,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "The hematologist ordered a bone marrow biopsy.",
+        [
+            {
+                "start": 25,
+                "end": 45,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "I'm recovering from pneumonia.",
+        [
+            {
+                "start": 20,
+                "end": 29,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "Complete rest and fluids are essential.",
+        [
+            {
+                "start": 0,
+                "end": 13,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 18,
+                "end": 24,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "My rotator cuff tear requires surgery.",
+        [
+            {
+                "start": 3,
+                "end": 20,
+                "label": "DIAGNOSIS"
+            },
+            {
+                "start": 30,
+                "end": 37,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "Rehabilitation will take three months.",
+        [
+            {
+                "start": 0,
+                "end": 14,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "I've been having frequent urination.",
+        [
+            {
+                "start": 14,
+                "end": 35,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "The prostate exam was normal.",
+        [
+            {
+                "start": 4,
+                "end": 17,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "My hernia repair surgery went smoothly.",
+        [
+            {
+                "start": 3,
+                "end": 16,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "Full recovery is expected in four weeks.",
+        [
+            {
+                "start": 0,
+                "end": 13,
+                "label": "PROGNOSIS"
+            }
+        ]
+    ],
+    [
+        "I have been diagnosed with celiac disease.",
+        [
+            {
+                "start": 27,
+                "end": 41,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "A strict gluten-free diet is necessary.",
+        [
+            {
+                "start": 9,
+                "end": 25,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "My depression symptoms are improving.",
+        [
+            {
+                "start": 3,
+                "end": 22,
+                "label": "SYMPTOM"
+            },
+            {
+                "start": 27,
+                "end": 36,
+                "label": "PROGNOSIS"
+            }
+        ]
+    ],
+    [
+        "The antidepressant is working.",
+        [
+            {
+                "start": 4,
+                "end": 18,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "I've developed tennis elbow.",
+        [
+            {
+                "start": 16,
+                "end": 28,
+                "label": "DIAGNOSIS"
+            }
+        ]
+    ],
+    [
+        "Rest and ice therapy are recommended.",
+        [
+            {
+                "start": 0,
+                "end": 4,
+                "label": "TREATMENT"
+            },
+            {
+                "start": 9,
+                "end": 20,
+                "label": "TREATMENT"
+            }
+        ]
+    ],
+    [
+        "My vitamin D levels are deficient.",
+        [
+            {
+                "start": 3,
+                "end": 18,
+                "label": "SYMPTOM"
+            }
+        ]
+    ],
+    [
+        "Weekly vitamin D supplements were prescribed.",
+        [
+            {
+                "start": 7,
+                "end": 28,
+                "label": "TREATMENT"
+            }
+        ]
+    ]
+]

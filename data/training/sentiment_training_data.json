@@ -1,0 +1,402 @@
+[
+    {
+        "text": "I'm doing better, but I still have some discomfort now and then.",
+        "label": "neutral"
+    },
+    {
+        "text": "I've been having these terrible headaches for the past two weeks. They're really worrying me.",
+        "label": "anxious"
+    },
+    {
+        "text": "I'm scared it might be something serious.",
+        "label": "anxious"
+    },
+    {
+        "text": "But what if it's a brain tumor or something?",
+        "label": "anxious"
+    },
+    {
+        "text": "That's a relief! Thank you, doctor.",
+        "label": "reassured"
+    },
+    {
+        "text": "Thank you, doctor. I'll try not to worry so much.",
+        "label": "reassured"
+    },
+    {
+        "text": "Yes, I've been waiting anxiously. What did you find?",
+        "label": "anxious"
+    },
+    {
+        "text": "Oh my. That's a lot to take in.",
+        "label": "anxious"
+    },
+    {
+        "text": "This is overwhelming. How do we deal with all of this?",
+        "label": "anxious"
+    },
+    {
+        "text": "That's a lot of medications. Will they interact with each other?",
+        "label": "anxious"
+    },
+    {
+        "text": "Thank you for explaining everything, doctor. I feel more confident about managing this now.",
+        "label": "reassured"
+    },
+    {
+        "text": "Not great, doctor. I've been having more attacks lately, especially at night.",
+        "label": "anxious"
+    },
+    {
+        "text": "I was afraid you'd say that. What do you recommend?",
+        "label": "anxious"
+    },
+    {
+        "text": "Should I get rid of the cat?",
+        "label": "neutral"
+    },
+    {
+        "text": "Thank you, doctor. I appreciate the help.",
+        "label": "reassured"
+    },
+    {
+        "text": "I just have no energy. I drag myself through the day and still feel exhausted.",
+        "label": "anxious"
+    },
+    {
+        "text": "Hypothyroidism? Is that serious?",
+        "label": "anxious"
+    },
+    {
+        "text": "What does that mean for treatment?",
+        "label": "neutral"
+    },
+    {
+        "text": "That's a relief to have an answer. I was worried something was really wrong with me.",
+        "label": "reassured"
+    },
+    {
+        "text": "For the past three months, I've had this burning feeling in my chest, especially after eating.",
+        "label": "neutral"
+    },
+    {
+        "text": "Is that dangerous? Could it be something worse?",
+        "label": "anxious"
+    },
+    {
+        "text": "How long will I need to take it?",
+        "label": "neutral"
+    },
+    {
+        "text": "Thank you, doctor. I hope this helps because it's really affecting my quality of life.",
+        "label": "neutral"
+    },
+    {
+        "text": "My hands and wrists hurt a lot, especially in the morning.",
+        "label": "neutral"
+    },
+    {
+        "text": "What do you think it is, doctor?",
+        "label": "anxious"
+    },
+    {
+        "text": "Rheumatoid arthritis? That sounds serious. My aunt has that and she can barely use her hands now.",
+        "label": "anxious"
+    },
+    {
+        "text": "What happens if it is RA?",
+        "label": "anxious"
+    },
+    {
+        "text": "Okay, I'll do whatever it takes. I want to catch this early.",
+        "label": "neutral"
+    },
+    {
+        "text": "Yeah, my tummy hurts a lot. And I've been pooping a lot.",
+        "label": "neutral"
+    },
+    {
+        "text": "Am I going to get a shot?",
+        "label": "anxious"
+    },
+    {
+        "text": "I'm worried about him getting dehydrated.",
+        "label": "anxious"
+    },
+    {
+        "text": "When can I go back to school?",
+        "label": "neutral"
+    },
+    {
+        "text": "Thank you, doctor. We were really worried.",
+        "label": "reassured"
+    },
+    {
+        "text": "Oh no, is something wrong? I've been worrying since I got the call.",
+        "label": "anxious"
+    },
+    {
+        "text": "A mass? Does that mean I have cancer?",
+        "label": "anxious"
+    },
+    {
+        "text": "What do we do now? I'm really scared.",
+        "label": "anxious"
+    },
+    {
+        "text": "A biopsy? That sounds painful.",
+        "label": "anxious"
+    },
+    {
+        "text": "What are the chances it's cancer?",
+        "label": "anxious"
+    },
+    {
+        "text": "Okay. I'll try to stay positive. Thank you for being honest with me.",
+        "label": "neutral"
+    },
+    {
+        "text": "Doctor, it's been terrifying. The room just starts spinning out of nowhere.",
+        "label": "anxious"
+    },
+    {
+        "text": "Oh! Yes, that's it! The spinning started when you turned my head to the right.",
+        "label": "neutral"
+    },
+    {
+        "text": "Is that serious? The word vertigo sounds scary.",
+        "label": "anxious"
+    },
+    {
+        "text": "You can fix it now? That would be amazing.",
+        "label": "neutral"
+    },
+    {
+        "text": "The spinning... it's gone! I can't believe it.",
+        "label": "reassured"
+    },
+    {
+        "text": "I'm feeling much better after the treatment.",
+        "label": "reassured"
+    },
+    {
+        "text": "The pain is unbearable. I can't sleep at night.",
+        "label": "anxious"
+    },
+    {
+        "text": "Will I ever be able to walk normally again?",
+        "label": "anxious"
+    },
+    {
+        "text": "My symptoms have improved significantly.",
+        "label": "reassured"
+    },
+    {
+        "text": "I understand the diagnosis now. Thank you for explaining.",
+        "label": "reassured"
+    },
+    {
+        "text": "What if the medication doesn't work?",
+        "label": "anxious"
+    },
+    {
+        "text": "I've been taking my medication as prescribed.",
+        "label": "neutral"
+    },
+    {
+        "text": "The side effects are really bothering me.",
+        "label": "anxious"
+    },
+    {
+        "text": "I'm so glad the test results came back normal.",
+        "label": "reassured"
+    },
+    {
+        "text": "When will I know if the treatment is working?",
+        "label": "neutral"
+    },
+    {
+        "text": "I've been feeling anxious about the upcoming surgery.",
+        "label": "anxious"
+    },
+    {
+        "text": "The doctor said I'm making good progress.",
+        "label": "reassured"
+    },
+    {
+        "text": "I don't understand why this keeps happening to me.",
+        "label": "anxious"
+    },
+    {
+        "text": "That's exactly what I was hoping to hear.",
+        "label": "reassured"
+    },
+    {
+        "text": "Is this going to affect my ability to work?",
+        "label": "anxious"
+    },
+    {
+        "text": "I can finally do things I couldn't do before.",
+        "label": "reassured"
+    },
+    {
+        "text": "My family is worried about me.",
+        "label": "anxious"
+    },
+    {
+        "text": "The recovery has been faster than I expected.",
+        "label": "reassured"
+    },
+    {
+        "text": "I'm concerned about the long-term effects.",
+        "label": "anxious"
+    },
+    {
+        "text": "I feel like myself again.",
+        "label": "reassured"
+    },
+    {
+        "text": "Will my insurance cover this treatment?",
+        "label": "neutral"
+    },
+    {
+        "text": "I've been doing the exercises you recommended.",
+        "label": "neutral"
+    },
+    {
+        "text": "The swelling has gone down considerably.",
+        "label": "reassured"
+    },
+    {
+        "text": "I'm afraid the symptoms might come back.",
+        "label": "anxious"
+    },
+    {
+        "text": "Everything looks normal on the scan.",
+        "label": "reassured"
+    },
+    {
+        "text": "How often do I need to come back for check-ups?",
+        "label": "neutral"
+    },
+    {
+        "text": "I can't stop thinking about what might be wrong.",
+        "label": "anxious"
+    },
+    {
+        "text": "The numbness in my hands is getting worse.",
+        "label": "anxious"
+    },
+    {
+        "text": "I've noticed a big improvement since starting the new medication.",
+        "label": "reassured"
+    },
+    {
+        "text": "What are the possible complications?",
+        "label": "anxious"
+    },
+    {
+        "text": "I'm really grateful for your help, doctor.",
+        "label": "reassured"
+    },
+    {
+        "text": "Should I be worried about this symptom?",
+        "label": "anxious"
+    },
+    {
+        "text": "The physical therapy has been very helpful.",
+        "label": "reassured"
+    },
+    {
+        "text": "I'm scared to do the procedure.",
+        "label": "anxious"
+    },
+    {
+        "text": "My energy levels are back to normal.",
+        "label": "reassured"
+    },
+    {
+        "text": "Is it okay if I get a second opinion?",
+        "label": "neutral"
+    },
+    {
+        "text": "I've been losing weight without trying.",
+        "label": "anxious"
+    },
+    {
+        "text": "The test came back negative, which is great news.",
+        "label": "reassured"
+    },
+    {
+        "text": "I've been having trouble remembering things lately.",
+        "label": "anxious"
+    },
+    {
+        "text": "I can move my arm freely now without any pain.",
+        "label": "reassured"
+    },
+    {
+        "text": "What happens if the condition gets worse?",
+        "label": "anxious"
+    },
+    {
+        "text": "I'm feeling hopeful about the treatment plan.",
+        "label": "reassured"
+    },
+    {
+        "text": "These symptoms are really affecting my daily life.",
+        "label": "anxious"
+    },
+    {
+        "text": "I've been sleeping much better since starting the treatment.",
+        "label": "reassured"
+    },
+    {
+        "text": "I'm worried I might have passed this on to my children.",
+        "label": "anxious"
+    },
+    {
+        "text": "I can finally eat without discomfort.",
+        "label": "reassured"
+    },
+    {
+        "text": "My blood pressure readings have been very high.",
+        "label": "anxious"
+    },
+    {
+        "text": "The wound is healing nicely.",
+        "label": "reassured"
+    },
+    {
+        "text": "I've been experiencing chest pains when I exercise.",
+        "label": "anxious"
+    },
+    {
+        "text": "I'm happy with how the treatment is going.",
+        "label": "reassured"
+    },
+    {
+        "text": "What if this is hereditary?",
+        "label": "anxious"
+    },
+    {
+        "text": "The rash has completely cleared up.",
+        "label": "reassured"
+    },
+    {
+        "text": "I've been having panic attacks more frequently.",
+        "label": "anxious"
+    },
+    {
+        "text": "My cholesterol levels are much better now.",
+        "label": "reassured"
+    },
+    {
+        "text": "I keep thinking the worst is going to happen.",
+        "label": "anxious"
+    },
+    {
+        "text": "I'm back to playing sports like before.",
+        "label": "reassured"
+    }
+]

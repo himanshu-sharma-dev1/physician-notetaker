@@ -1,0 +1,6 @@
+{
+  "accuracy": 0.9117647058823529,
+  "samples": 225,
+  "model": "distilbert-base-uncased",
+  "epochs": 5
+}

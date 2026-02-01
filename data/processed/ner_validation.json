@@ -1,0 +1,130 @@
+[
+  [
+    "I've gained about 8 pounds without changing my diet.",
+    {
+      "entities": [
+        [
+          4,
+          27,
+          "SYMPTOM"
+        ]
+      ]
+    }
+  ],
+  [
+    "We'll try physical therapy first - twice weekly for six weeks.",
+    {
+      "entities": [
+        [
+          10,
+          26,
+          "TREATMENT"
+        ]
+      ]
+    }
+  ],
+  [
+    "I feel nauseous during the episodes. Yesterday I actually threw up.",
+    {
+      "entities": [
+        [
+          7,
+          15,
+          "SYMPTOM"
+        ],
+        [
+          58,
+          66,
+          "SYMPTOM"
+        ]
+      ]
+    }
+  ],
+  [
+    "I can hear some wheezing in both lungs.",
+    {
+      "entities": [
+        [
+          16,
+          24,
+          "SYMPTOM"
+        ],
+        [
+          33,
+          38,
+          "BODY_PART"
+        ]
+      ]
+    }
+  ],
+  [
+    "The room just starts spinning out of nowhere. I feel like I'm going to fall over.",
+    {
+      "entities": [
+        [
+          20,
+          28,
+          "SYMPTOM"
+        ]
+      ]
+    }
+  ],
+  [
+    "We can often fix it right now with a repositioning maneuver called the Epley maneuver.",
+    {
+      "entities": [
+        [
+          37,
+          58,
+          "TREATMENT"
+        ],
+        [
+          71,
+          85,
+          "TREATMENT"
+        ]
+      ]
+    }
+  ],
+  [
+    "Your cholesterol panel shows elevated LDL cholesterol.",
+    {
+      "entities": [
+        [
+          29,
+          53,
+          "DIAGNOSIS"
+        ]
+      ]
+    }
+  ],
+  [
+    "I've had to use my rescue inhaler about 4-5 times a day.",
+    {
+      "entities": [
+        [
+          18,
+          32,
+          "TREATMENT"
+        ]
+      ]
+    }
+  ],
+  [
+    "I just have no energy. I drag myself through the day and still feel exhausted.",
+    {
+      "entities": [
+        [
+          12,
+          21,
+          "SYMPTOM"
+        ],
+        [
+          69,
+          78,
+          "SYMPTOM"
+        ]
+      ]
+    }
+  ]
+]

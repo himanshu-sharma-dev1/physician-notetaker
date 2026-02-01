@@ -1,6 +1,7 @@
 # Theoretical Questions & Answers
 
-This document answers the theoretical questions posed in the Emitrr AI Engineer Intern assignment.
+This document provides detailed answers to the theoretical questions about medical NLP systems.
+
 
 ---
 

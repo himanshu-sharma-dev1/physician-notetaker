@@ -88,7 +88,7 @@ class AnalysisResult:
         }
     
     def to_simple_dict(self) -> Dict:
-        """Simple output format matching assignment requirements."""
+        """Simple output format for structured output."""
         return {
             "Sentiment": self.sentiment.sentiment,
             "Intent": self.intent.primary_intent

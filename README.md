@@ -295,7 +295,7 @@ This project demonstrates:
 
 **Himanshu Sharma**
 
-Built for Emitrr AI Engineer Intern Assignment
+[![GitHub](https://img.shields.io/badge/GitHub-himanshu--sharma--dev1-black?logo=github)](https://github.com/himanshu-sharma-dev1)
 
 ---
 

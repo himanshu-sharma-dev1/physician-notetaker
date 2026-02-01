@@ -57,7 +57,7 @@ class NERResult:
         }
     
     def to_simple_dict(self) -> Dict:
-        """Convert to simple list format (for assignment output)."""
+        """Convert to simple list format (for structured output)."""
         return {
             "Symptoms": list(set(e.text.title() for e in self.symptoms)),
             "Treatment": list(set(e.text.title() for e in self.treatments)),

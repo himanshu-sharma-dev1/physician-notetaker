@@ -12,7 +12,7 @@ This module handles:
 - Feature extraction for ML models
 
 Author: Himanshu Sharma
-For: Emitrr AI Engineer Intern Assignment
+Author: Himanshu Sharma
 """
 
 import json
